@@ -3,7 +3,7 @@
 /*
  * This file is part of the PHPLeague package.
  *
- * (c) M. Dizerens <mikaweb@gunners.fr>
+ * (c) Maxime Dizerens <mdizerens@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -32,8 +32,8 @@ if ( ! class_exists('PHPLeague_Widgets')) {
             echo '<div class="rss-widget">';
 
             wp_widget_rss_output(array(
-                'url'          => 'http://www.phpleague.com/category/annoucements/feed/',
-                'title'        => __('Latest News from PHPLeague...', 'phpleague'),
+                'url'          => 'http://wordpress.org/support/rss/tags/phpleague',
+                'title'        => __('Latest Discussions About PHPLeague...', 'phpleague'),
                 'items'        => 5,
                 'show_summary' => 0,
                 'show_author'  => 0,

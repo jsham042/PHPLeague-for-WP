@@ -3,7 +3,7 @@
 /*
  * This file is part of the PHPLeague package.
  *
- * (c) M. Dizerens <mikaweb@gunners.fr>
+ * (c) Maxime Dizerens <mdizerens@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -89,34 +89,25 @@ if ( ! class_exists('PHPLeague_Tools')) {
         }
         
         /**
-         * Valid text input.
+         * Valid text length.
          *
          * @param   string  $string
          * @param   integer $length (optional)
          * @return  boolean
          */
-        public function valid_text($string, $length = 3)
+        public function valid_length($string, $length = 3)
         {
-            if (function_exists('mb_check_encoding'))
+            if (function_exists('mb_strlen'))
             {
-                // Check if we are dealing with UTF-8
-                if (mb_check_encoding($string, 'UTF-8'))
-                {
-                    if (mb_strlen($string) < $length)
-                        return FALSE;
-                }
-                else
-                {
-                    if (strlen($string) < $length)
-                        return FALSE;
-                }
+                if (mb_strlen(utf8_decode($string)) < $length)
+                    return FALSE;
             }
-            else // Could be utf8 or not, we don't know...
+            else
             {
                 if (strlen(utf8_decode($string)) < $length)
                     return FALSE;
             }
-
+            
             return TRUE;
         }
 
@@ -192,7 +183,7 @@ if ( ! class_exists('PHPLeague_Tools')) {
          * @param   array  extension authorized
          * @return  array
          */
-        public function return_dir_files($path = NULL, $extension = array('png', 'jpg', 'jpeg', 'gif', 'bmp'))
+        public function return_dir_files($path = NULL, $extension = array('png', 'jpg', 'jpeg'))
         {
             $files = array();
             $list  = array(0 => __('-- Select a file --', 'phpleague'));

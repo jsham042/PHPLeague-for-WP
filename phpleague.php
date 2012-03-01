@@ -1,7 +1,7 @@
 <?php
 
 /*  
-    Copyright 2011  M. Dizerens  (email : mikaweb@gunners.fr)
+    Copyright 2011  Maxime Dizerens  (email : mdizerens@gmail.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -19,12 +19,12 @@
 */
 
 /*
-Plugin Name: PHPLeague for WordPress
-Plugin URI: http://www.phpleague.com/
-Description: PHPLeague for WordPress is the best companion to manage your championships.
-Version: 1.4.5
-Author: M. Dizerens
-Author URI: http://www.phpleague.com/
+Plugin Name: PHPLeague
+Plugin URI: https://github.com/Mikaweb/PHPLeague-for-WP
+Description: PHPLeague lets you managing your leagues without any hassles.
+Version: 1.4.6
+Author: Maxime Dizerens
+Author URI: http://www.gunners.fr/
 */
 
 if ( ! class_exists('PHPLeague')) {
@@ -39,11 +39,10 @@ if ( ! class_exists('PHPLeague')) {
     class PHPLeague {
 
         // Variables
-        public $longname      = 'PHPLeague for WordPress';
-        public $shortname     = 'PHPLeague for WP';
-        public $homepage      = 'http://www.phpleague.com/';
+        public $longname      = 'PHPLeague';
+        public $homepage      = 'https://github.com/Mikaweb/PHPLeague-for-WP';
         public $edition       = 'Ultimate Edition';
-        public static $access = 'administrator';
+        public static $access = '';
         public static $pages  = array(
             'phpleague_about',
             'phpleague_club',
@@ -86,6 +85,9 @@ if ( ! class_exists('PHPLeague')) {
                 register_activation_hook(__FILE__, array('PHPLeague', 'activate'));
                 register_uninstall_hook(__FILE__, array('PHPLeague', 'uninstall'));
                 
+                // We need to be administrator to manage PHPLeague backend
+                PHPLeague::$access = 'administrator';
+                
                 // Load the backend controller system
                 require_once WP_PHPLEAGUE_PATH.'libs/phpleague-admin.php';
                 
@@ -96,7 +98,6 @@ if ( ! class_exists('PHPLeague')) {
                 add_action('admin_print_styles', array('PHPLeague_Admin', 'print_admin_styles'));
                 add_action('admin_print_scripts', array('PHPLeague_Admin', 'print_admin_scripts'));
                 add_action('wp_dashboard_setup', array('PHPLeague_Admin', 'register_admin_widgets'));
-                add_action('admin_bar_menu', array('PHPLeague_Admin', 'render_adminbar_links'));
                 
                 // AJAX library
                 require_once WP_PHPLEAGUE_PATH.'libs/phpleague-ajax.php';
@@ -104,11 +105,8 @@ if ( ! class_exists('PHPLeague')) {
                 // Ajax request to delete a team in player history
                 add_action('wp_ajax_delete_player_history_team', array('PHPLeague_AJAX', 'delete_player_history_team'));
             }
-            else // PHPLeague frontend
+            else // PHPLeague front-end
             {
-                // Don't need to be admin to use PHPLeague in the frontend
-                PHPLeague::$access = '';
-
                 // Load the frontend controller system
                 require_once WP_PHPLEAGUE_PATH.'libs/phpleague-front.php';
                 
@@ -125,8 +123,8 @@ if ( ! class_exists('PHPLeague')) {
          */
         public function define_constants()
         {
-            define('WP_PHPLEAGUE_VERSION', '1.4.5');
-            define('WP_PHPLEAGUE_DB_VERSION', '1.3.1');
+            define('WP_PHPLEAGUE_VERSION', '1.4.6');
+            define('WP_PHPLEAGUE_DB_VERSION', '1.3.2');
             define('WP_PHPLEAGUE_EDITION', $this->edition);
             define('WP_PHPLEAGUE_PATH', plugin_dir_path(__FILE__));
             define('WP_PHPLEAGUE_UPLOADS_PATH', ABSPATH.'wp-content/uploads/phpleague/');
@@ -145,7 +143,7 @@ if ( ! class_exists('PHPLeague')) {
             {
                 delete_option('phpleague_do_activation_redirect');
                 wp_redirect(get_option('siteurl').'/wp-admin/admin.php?page=phpleague_overview&activation=1');
-                die;
+                die();
             }
 
             // Set capabilities
@@ -182,9 +180,9 @@ if ( ! class_exists('PHPLeague')) {
             $db_version = get_option('phpleague_db_version');
             $current_db_version = isset($db_version) ? $db_version : 0;
 
-            // You're already using the latest version
+            // We're already using the latest version
             // so we're leaving!
-            if ($current_version == WP_PHPLEAGUE_VERSION AND $current_db_version == WP_PHPLEAGUE_DB_VERSION)
+            if ($current_version == WP_PHPLEAGUE_VERSION && $current_db_version == WP_PHPLEAGUE_DB_VERSION)
                 return;
 
             // Few people encounter issues because they can't handle
@@ -232,6 +230,9 @@ if ( ! class_exists('PHPLeague')) {
             // Few modifications
             if (version_compare($current_db_version, '1.3.2', '<'))
             {
+                // No more premium edition...
+                delete_option('phpleague_edition');
+
                 // ALTER tables
                 $wpdb->query("ALTER TABLE $wpdb->league MODIFY id_favorite smallint(4) unsigned NOT NULL DEFAULT '0';");
                 $wpdb->query("ALTER TABLE $wpdb->club ADD creation YEAR(4) NOT NULL DEFAULT '0000' AFTER coach;");
@@ -252,7 +253,7 @@ if ( ! class_exists('PHPLeague')) {
 
                 // ALTER club table
                 $wpdb->query("ALTER TABLE $wpdb->club MODIFY creation VARCHAR(4) NOT NULL DEFAULT '0000';");
-            } 
+            }
 
             // Basic actions to do everytime we upgrade PHPLeague...
             if ($current_version < WP_PHPLEAGUE_VERSION)

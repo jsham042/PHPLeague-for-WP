@@ -3,7 +3,7 @@
 /*
  * This file is part of the PHPLeague package.
  *
- * (c) M. Dizerens <mikaweb@gunners.fr>
+ * (c) Maxime Dizerens <mdizerens@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -244,14 +244,14 @@ $data[] = array(
 $data[] = array(
     'menu'  => __('About', 'phpleague'),
     'title' => __('Overview', 'phpleague'),
-    'text'  => __('You are currently using the <b>ULTIMATE</b> edition of the PHPLeague for WordPress Plugin.', 'phpleague'),
+    'text'  => __('You are currently using the <b>ULTIMATE</b> Edition of PHPLeague.', 'phpleague'),
     'class' => 'full'
 );
 
 $data[] = array(
     'menu'  => __('About', 'phpleague'),
     'title' => __('Requirements', 'phpleague'),
-    'text'  => __('I did not test the plugin under all Operating Systems but I am pretty sure it must handle every environment. As WordPress 3.2+, the minimum version of PHP required is 5.2.4 or greater and MySQL version 5 or greater for your database. Javascript must be enabled in the back-end of PHPLeague.', 'phpleague'),
+    'text'  => __('I did not test the plugin under all Operating Systems but I am pretty sure it must handle every environment. As WordPress 3.1+, the minimum version of PHP required is 5.2.4 or greater and MySQL version 5 or greater for your database. Javascript must be enabled in the back-end of PHPLeague.', 'phpleague'),
     'class' => 'full'
 );
 

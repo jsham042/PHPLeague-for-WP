@@ -3,7 +3,7 @@
 /*
  * This file is part of the PHPLeague package.
  *
- * (c) M. Dizerens <mikaweb@gunners.fr>
+ * (c) Maxime Dizerens <mdizerens@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -66,7 +66,7 @@ elseif (isset($_POST['add_league']) && check_admin_referer('phpleague')) // Add 
     {
         $message[] = __('The name cannot be empty.', 'phpleague');
     }
-    elseif ($fct->valid_text($name, 3) === FALSE)
+    elseif ($fct->valid_length($name, 3) === FALSE)
     {
         $message[] = __('The name must be alphanumeric and 3 characters long at least.', 'phpleague');
     }

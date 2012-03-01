@@ -3,7 +3,7 @@
 /*
  * This file is part of the PHPLeague package.
  *
- * (c) M. Dizerens <mikaweb@gunners.fr>
+ * (c) Maxime Dizerens <mdizerens@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -122,6 +122,7 @@ else
     }
 
     $output .= '<div class="tablenav top"><div class="alignleft actions">'.$fct->input('fixtures', __('Save', 'phpleague'), array('type' => 'submit', 'class' => 'button')).'</div></div>';
+
     $output .=
     '<table class="widefat text-centered"><thead>
         <tr>

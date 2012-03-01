@@ -3,7 +3,7 @@
 /*
  * This file is part of the PHPLeague package.
  *
- * (c) M. Dizerens <mikaweb@gunners.fr>
+ * (c) Maxime Dizerens <mdizerens@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -40,13 +40,13 @@ if ( ! class_exists('PHPLeague_Admin')) {
             return '<div id="adminpanel"><div id="adminpanel-header"><div class="logo"><a href="'
                     .admin_url('admin.php?page=phpleague_overview').'"><img alt="" src="'
                     .plugins_url('phpleague/assets/img/logo.png').'" /></a></div><div class="theme-info">'
-                    .'<span class="plugin">'.WP_PHPLEAGUE_EDITION.'</span>'
+                    .'<span class="plugin">'.__('PHPLeague', 'phpleague').'</span>'
                     .'<span class="release">'.__('Release: ', 'phpleague').WP_PHPLEAGUE_VERSION.'</span>'
                     .'</div></div><div id="support-links"><ul><li class="changelog">'
                     .'<a href="http://wordpress.org/extend/plugins/phpleague/changelog/">'
                     .__('Changelog', 'phpleague').'</a></li><li class="docs">'
-                    .'<a href="http://www.phpleague.com/manual/">'.__('Manual', 'phpleague').'</a></li>'
-                    .'<li class="help"><a href="http://www.phpleague.com/">'.__('Homepage', 'phpleague')
+                    .'<a href="http://wordpress.org/tags/phpleague?forum_id=10">'.__('Forum', 'phpleague').'</a></li>'
+                    .'<li class="help"><a href="https://github.com/Mikaweb/PHPLeague-for-WP">'.__('Homepage', 'phpleague')
                     .'</a></li></ul></div><div id="adminpanel-main">';
         }
 
@@ -105,6 +105,18 @@ if ( ! class_exists('PHPLeague_Admin')) {
             $output .= '</div>';
 
             return $output;
+        }
+
+        /**
+         * Page wrapper
+         *
+         * @param  integer $width
+         * @param  string  $content
+         * @return string
+         */
+        public function admin_wrapper($width = 98, $content = NULL)
+        {
+            return '<div class="postbox-container" style="width: '.$width.'%">'.$content.'</div>';
         }
     
         /**
@@ -197,49 +209,6 @@ if ( ! class_exists('PHPLeague_Admin')) {
                 'meta'   => $meta,
                 'id'     => $id
             ));
-        }
-
-        /**
-         * Render the admin bar
-         *
-         * @return void
-         */
-        public static function render_adminbar_links()
-        {
-            // Root
-            PHPLeague_Admin::add_root_menu(
-                __('PHPLeague', 'phpleague'),
-                'phpleague',
-                admin_url('admin.php?page=phpleague_overview')
-            );
-
-            PHPLeague_Admin::add_sub_menu(
-                __('Dashboard', 'phpleague'),
-                admin_url('admin.php?page=phpleague_overview'),
-                'phpleague',
-                'phpleague-dashboard'
-            );
-
-            PHPLeague_Admin::add_sub_menu(
-                __('Clubs', 'phpleague'),
-                admin_url('admin.php?page=phpleague_club'),
-                'phpleague',
-                'phpleague-clubs'
-            );
-            
-            PHPLeague_Admin::add_sub_menu(
-                __('Players', 'phpleague'),
-                admin_url('admin.php?page=phpleague_player'),
-                'phpleague',
-                'phpleague-players'
-            );
-
-            PHPLeague_Admin::add_sub_menu(
-                __('About', 'phpleague'),
-                admin_url('admin.php?page=phpleague_about'),
-                'phpleague',
-                'phpleague-about'
-            );
         }
 
         /**

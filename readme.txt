@@ -1,22 +1,21 @@
-=== PHPLeague for WordPress ===
+=== PHPLeague ===
 Contributors: Maxime Dizerens
-Donate link: http://www.phpleague.com/
+Donate link: http://www.gunners.fr/
 Tags: phpleague, football, sport, league, championship, soccer, handball, volleyball, basketball, hockey, sports, leagues
 Requires at least: 3.2
-Tested up to: 3.3
-Stable tag: 1.4.5
+Tested up to: 3.3.1
+Stable tag: 1.4.6
 
-PHPLeague offers you the possibility to manage your leagues from A to Z without any hassles.
+PHPLeague lets you managing your leagues without any hassles.
 
 == Description ==
-PHPLeague for WordPress is a plugin that let you manage your own sports leagues instead of relying on a third-party website.
-This lets you have an integrated site without a lot of coding, and still letting you customize it exactly the way you’d like.
+PHPLeague is a plugin that let you manage your own sports leagues instead of relying on a third-party website. This lets you have an integrated site without a lot of coding, and still letting you customize it exactly the way you’d like.
 
 First, you activate and set up the plugin, which makes your site have all functionalities available. Then, you can get it started by inserting every data you want, one by one.
 
 Bonus: I'm always listening to your requests and most of these are added regularly in the sourcecode improving the quality of PHPLeague. And by the way, PHPLeague will never be a premium plugin. It's 100% FREE and will stay that way!
 
-Requires WordPress 3.1+ and PHP 5.2+.
+Requires WordPress 3.2+ and PHP 5.2+.
 
 **Current features**
 
@@ -25,9 +24,8 @@ Requires WordPress 3.1+ and PHP 5.2+.
 * Unlimited players
 * Accessible easily through your posts or pages
 * Display full or partial data, it's up to you
-* Get widgets everywhere on your website
+* Get widgets everywhere
 * A very powerful and user-friendly back-end
-* A clean and efficient (un)installer keeping your data safe.
 
 **Coming features**
 
@@ -35,12 +33,12 @@ Requires WordPress 3.1+ and PHP 5.2+.
 * More and more statistics
 * More and more sports
 * A complete team dashboard section
-* Export your data and use PHPLeague CMS instead.
+* A clean and efficient (un)installer keeping your data safe.
 
 If you have suggestions for a new add-on, feel free to email me at mdizerens@gmail.com.
-Want regular updates? Go on PHPLeague.com!
+Want regular updates? Go on https://github.com/Mikaweb/PHPLeague-for-WP!
 
-http://www.phpleague.com/
+https://github.com/Mikaweb/PHPLeague-for-WP
 
 Or follow me on Twitter!
 
@@ -48,7 +46,7 @@ http://twitter.com/mdizerens
 
 **Languages**
 
-* This plugin is currently available in English, French and German. Please help me translate it!
+* This plugin is currently available in English, French, German and Polish. Please help me translate it!
 
 == Installation ==
 
@@ -85,11 +83,11 @@ In the front part, no Javascript at all. Always keeping in mind that plenty of b
 
 = Where do I need to add my logos? =
 
-A new `phpleague` is - supposedly - automatically created during the installation in your `uploads` directory. Then, add your logos in the right folders (mini or big).
+A new `phpleague` folder is - supposedly - automatically created during the installation in your `uploads` directory. Then, add your logos in the corresponding folders (mini or big).
 
 = Another question? =
 
-For more information, check out the PHPLeague project website: <http://www.phpleague.com/>.
+For more information, check out the PHPLeague project website: <https://github.com/Mikaweb/PHPLeague-for-WP>.
 
 == Screenshots ==
 
@@ -99,17 +97,21 @@ For more information, check out the PHPLeague project website: <http://www.phple
 
 == Changelog ==
 
+= 1.4.6 =
+* CHG: All characters are authorized
+* FIX: Database structure upgrade system has been improved
+
 = 1.4.5 =
-* NEW: GIF and BMP files are now accepted
-* FIX: Modified the valid_text method to accept everything
-* FIX: Alter YEAR type because it ranges only from 1901 to 2055
+* NEW: Polish language is now available
+* CHG: Removed the admin top bar links
+* CHG: Updated the RSS feed
 
 = 1.4.4 =
 * NEW: Add a new method to detect the file extension
 * CHG: Removed the "hide" feature for category
 * CHG: Can now use "jpg" images for logos
 * CHG: The notification messages are now grouped together
-* CHG: The valid_text method has been improved
+* CHG: The valid_length method has been improved
 * CHG: Birthdate, height and weight are not mandatory anymore
 * FIX: Replace click() by focusin() in the readonly inputs
 

@@ -3,7 +3,7 @@
 /*
  * This file is part of the PHPLeague package.
  *
- * (c) M. Dizerens <mikaweb@gunners.fr>
+ * (c) Maxime Dizerens <mdizerens@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -14,7 +14,7 @@ $root = dirname(dirname(dirname(dirname(dirname(dirname(dirname(__FILE__)))))));
 if (file_exists($root.'/wp-load.php'))
     require_once($root.'/wp-load.php');
 else
-    die;
+    die();
 
 require_once ABSPATH.'/wp-admin/admin.php';
 
@@ -53,7 +53,7 @@ $site_url = get_option('siteurl');
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title><?php _e('PHPLeague for WordPress', 'phpleague') ?></title>
+    <title><?php _e('PHPLeague', 'phpleague') ?></title>
     <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php echo get_option('blog_charset'); ?>" />
     <script language="javascript" type="text/javascript" src="<?php echo $site_url; ?>/wp-includes/js/tinymce/tiny_mce_popup.js"></script>
     <script language="javascript" type="text/javascript" src="<?php echo $site_url; ?>/wp-includes/js/tinymce/utils/mctabs.js"></script>

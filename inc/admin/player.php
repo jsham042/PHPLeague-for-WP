@@ -3,7 +3,7 @@
 /*
  * This file is part of the PHPLeague package.
  *
- * (c) M. Dizerens <mikaweb@gunners.fr>
+ * (c) Maxime Dizerens <mdizerens@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -32,11 +32,11 @@ if (isset($_POST['player']) && check_admin_referer('phpleague'))
     $firstname = (string) trim($_POST['firstname']);
     $lastname  = (string) trim($_POST['lastname']);
 
-    if ($fct->valid_text($firstname, 3) === FALSE)
+    if ($fct->valid_length($firstname, 3) === FALSE)
     {
         $message[] = __('The first name must be alphanumeric and 3 characters long at least.', 'phpleague');
     }
-    elseif ($fct->valid_text($lastname, 3) === FALSE)
+    elseif ($fct->valid_length($lastname, 3) === FALSE)
     {
         $message[] = __('The last name must be alphanumeric and 3 characters long at least.', 'phpleague');
     }

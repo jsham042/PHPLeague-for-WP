@@ -3,7 +3,7 @@
 /*
  * This file is part of the PHPLeague package.
  *
- * (c) M. Dizerens <mikaweb@gunners.fr>
+ * (c) Maxime Dizerens <mdizerens@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -112,13 +112,11 @@ if ( ! class_exists('PHPLeague_Widgets_Ranking')) {
                 $leagues_list[$item->name][$item->id] = $year.'/'.substr($year + 1, 2);
             }
 
-            $league_id = (isset($instance['league_id']) ? (int) $instance['league_id'] : 1);
-
             // Display the dropdown list with selected league
             echo $tools->select(
                 esc_attr($this->get_field_name('league_id')),
                 $leagues_list,
-                $league_id,
+                (int) $instance['league_id'],
                 array('id' => esc_attr($this->get_field_id('league_id')))
             );
         }

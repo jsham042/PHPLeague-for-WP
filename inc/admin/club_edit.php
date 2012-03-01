@@ -3,7 +3,7 @@
 /*
  * This file is part of the PHPLeague package.
  *
- * (c) M. Dizerens <mikaweb@gunners.fr>
+ * (c) Maxime Dizerens <mdizerens@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -33,14 +33,14 @@ if (isset($_POST['edit_club']) && check_admin_referer('phpleague'))
     $country  = (int) $_POST['country'];
     
     // We filter the venue name
-    if ($fct->valid_text($venue, 5) === FALSE)
+    if ($fct->valid_length($venue, 5) === FALSE)
     {
         $venue = '';
         $message[] = __('The venue must be alphanumeric and 5 characters long at least (optional).', 'phpleague'); 
     }
     
     // We filter the coach name
-    if ($fct->valid_text($coach, 5) === FALSE)
+    if ($fct->valid_length($coach, 5) === FALSE)
     {
         $coach = '';
         $message[] = __('The coach must be alphanumeric and 5 characters long at least (optional).', 'phpleague');
@@ -65,7 +65,7 @@ if (isset($_POST['edit_club']) && check_admin_referer('phpleague'))
     {
        $message[] = __('Busted! We got 2 different IDs which is not possible!', 'phpleague');
     }
-    elseif ($fct->valid_text($name, 3) === FALSE)
+    elseif ($fct->valid_length($name, 3) === FALSE)
     {
        $message[] = __('The name must be alphanumeric and 3 characters long at least.', 'phpleague');
     }

@@ -3,7 +3,7 @@
 /*
  * This file is part of the PHPLeague package.
  *
- * (c) M. Dizerens <mikaweb@gunners.fr>
+ * (c) Maxime Dizerens <mdizerens@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -56,7 +56,7 @@ if (isset($_POST['general']) && check_admin_referer('phpleague'))
     {
         $message[] = __('The name cannot be empty.', 'phpleague');
     }
-    elseif ($fct->valid_text($name, 3) === FALSE)
+    elseif ($fct->valid_length($name, 3) === FALSE)
     {
         $message[] = __('The name must be alphanumeric and 3 characters long at least.', 'phpleague');
     }
@@ -197,7 +197,7 @@ $output .=
     </tr>
 </table>
 <div>'.__('I do not recommend using the Player Mod in production environment yet and be aware that only few features have been developed so far...', 'phpleague').'</div>
-<div>'.__('Prediction Mod is not working at all except to save the settings because I am waiting for the new WordPress 3.3.', 'phpleague').'</div>
+<div>'.__('Prediction Mod is not working at the moment except to save your settings.', 'phpleague').'</div>
 <div class="submit">'.$fct->input('general', __('Save', 'phpleague'), array('type' => 'submit')).'</div>';
 
 $output .= $fct->form_close();
