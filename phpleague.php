@@ -234,13 +234,11 @@ if ( ! class_exists('PHPLeague')) {
                 delete_option('phpleague_edition');
 
                 // ALTER tables
-                $wpdb->query("ALTER TABLE $wpdb->league MODIFY id_favorite smallint(4) unsigned NOT NULL DEFAULT '0';");
-                $wpdb->query("ALTER TABLE $wpdb->club ADD creation YEAR(4) NOT NULL DEFAULT '0000' AFTER coach;");
+                $wpdb->query("ALTER TABLE $wpdb->club ADD creation VARCHAR(4) NOT NULL DEFAULT '0000' AFTER coach;");
                 $wpdb->query("ALTER TABLE $wpdb->club ADD website VARCHAR(255) DEFAULT NULL AFTER creation;");
+                $wpdb->query("ALTER TABLE $wpdb->league MODIFY id_favorite smallint(4) unsigned NOT NULL DEFAULT '0';");
                 $wpdb->query("ALTER TABLE $wpdb->league ADD team_link ENUM('no','yes') NOT NULL DEFAULT 'no' AFTER nb_leg;");
                 $wpdb->query("ALTER TABLE $wpdb->league ADD default_time time NOT NULL DEFAULT '17:00:00' AFTER team_link;");
-
-                // ALTER league table
                 $wpdb->query("ALTER TABLE $wpdb->league ADD player_mod ENUM('no','yes') NOT NULL DEFAULT 'no' AFTER nb_teams;");
                 $wpdb->query("ALTER TABLE $wpdb->league ADD sport_type VARCHAR(50) NOT NULL DEFAULT 'football' AFTER player_mod;");
                 $wpdb->query("ALTER TABLE $wpdb->league ADD nb_starter TINYINT(1) unsigned NOT NULL DEFAULT '0' AFTER sport_type;");
@@ -250,9 +248,6 @@ if ( ! class_exists('PHPLeague')) {
                 $wpdb->query("ALTER TABLE $wpdb->league ADD point_wrong TINYINT(1) unsigned NOT NULL DEFAULT '0' AFTER point_right;");
                 $wpdb->query("ALTER TABLE $wpdb->league ADD point_part TINYINT(1) unsigned NOT NULL DEFAULT '1' AFTER point_wrong;");
                 $wpdb->query("ALTER TABLE $wpdb->league ADD deadline TINYINT(1) unsigned NOT NULL DEFAULT '1' AFTER point_part;");
-
-                // ALTER club table
-                $wpdb->query("ALTER TABLE $wpdb->club MODIFY creation VARCHAR(4) NOT NULL DEFAULT '0000';");
             }
 
             // Basic actions to do everytime we upgrade PHPLeague...
@@ -331,6 +326,8 @@ if ( ! class_exists('PHPLeague')) {
                 coach VARCHAR(100) DEFAULT NULL,
                 logo_big VARCHAR(255) DEFAULT NULL,
                 logo_mini VARCHAR(255) DEFAULT NULL,
+                creation VARCHAR(4) NOT NULL DEFAULT '0000',
+                website VARCHAR(255) DEFAULT NULL,
                 PRIMARY KEY (id),
                 UNIQUE KEY name (name)";
 
@@ -366,7 +363,18 @@ if ( ! class_exists('PHPLeague')) {
                 relegation tinyint(3) unsigned NOT NULL DEFAULT '3',
                 id_favorite smallint(4) unsigned NOT NULL DEFAULT '0',
                 nb_leg tinyint(1) NOT NULL DEFAULT '2',
+                team_link ENUM('no','yes') NOT NULL DEFAULT 'no',
+                default_time time NOT NULL DEFAULT '17:00:00',
                 nb_teams tinyint(1) NOT NULL DEFAULT '0',
+                player_mod ENUM('no','yes') NOT NULL DEFAULT 'no',
+                sport_type VARCHAR(50) NOT NULL DEFAULT 'football',
+                nb_starter TINYINT(1) unsigned NOT NULL DEFAULT '0',
+                nb_bench TINYINT(1) unsigned NOT NULL DEFAULT '0',
+                prediction_mod ENUM('no','yes') NOT NULL DEFAULT 'no',
+                point_right TINYINT(1) unsigned NOT NULL DEFAULT '5',
+                point_wrong TINYINT(1) unsigned NOT NULL DEFAULT '0',
+                point_part TINYINT(1) unsigned NOT NULL DEFAULT '1',
+                deadline TINYINT(1) unsigned NOT NULL DEFAULT '1'
                 PRIMARY KEY (id)";
 
             PHPLeague::run_install_or_upgrade($wpdb->league, $sql, $db_version);

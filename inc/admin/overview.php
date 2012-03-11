@@ -120,8 +120,19 @@ $output     = '';
 $data       = array();
 $menu       = array(__('Overview', 'phpleague') => '#');
 
+if ( ! empty($_GET['phpleague_integrity']) && $_GET['phpleague_integrity'] == 'enabled')
+    $message[] = $ctl->check_database_integrity();
+
 if ($total == 0)
     $message[] = __('No league found in the database!', 'phpleague');
+
+$output = '<a href="'.admin_url($page_url.'&phpleague_integrity=enabled').'">'.__('Make sure the database structure is up-to-date...', 'phpleague').'</a>';
+$data[] = array(
+    'menu'  => __('Overview', 'phpleague'),
+    'title' => __('Database Structure Integrity Checking', 'phpleague'),
+    'text'  => $output,
+    'class' => 'full'
+);
     
 $output  = $fct->form_open(admin_url($page_url));
 $output .= $fct->input('name', __('Name', 'phpleague'), array('readonly' => 'readonly', 'class' => 'default'));

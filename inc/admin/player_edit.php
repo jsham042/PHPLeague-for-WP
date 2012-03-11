@@ -123,8 +123,24 @@ foreach (get_tags(array('hide_empty' => FALSE)) as $tag)
 // -- Player information
 $pics_list = $fct->return_dir_files(WP_PHPLEAGUE_UPLOADS_PATH.'players/');
 $player    = $db->get_player($id_player);
-$output    = $fct->form_open($page_url);
-$table     =
+echo '<div id="adminpanel-menu"><ul>';
+echo '<li class="adminpanel-menu-li"><a href="#" class="adminpanel-menu-link" id="adminpanel-menu-1">'.__('Player Information', 'phpleague').'</a></li>';
+echo '<li class="adminpanel-menu-li"><a href="#" class="adminpanel-menu-link" id="adminpanel-menu-2">'.__('Player Record', 'phpleague').'</a></li>';
+echo '</ul></div><div id="adminpanel-content">';
+if ( ! empty($message) && is_array($message))
+{
+    echo '<div class="updated">';
+    foreach ($message as $note)
+    {
+        echo '<p>'.esc_html($note).'</p>';
+    }
+    echo '</div>';
+}
+
+echo '<div class="adminpanel-content-box" id="adminpanel-content-1">';
+echo '<div class="section"><h3 class="heading">'.__('Player Information', 'phpleague').'</h3><div class="option"><div class="full">';
+echo $fct->form_open($page_url);
+echo
     '<table class="form-table">
         <tr>
             <td class="required">'.__('First Name:', 'phpleague').'</td>
@@ -151,51 +167,18 @@ $table     =
             <td>'.$fct->select('term', $tags_list, (int) $player->id_term).'</td>
         </tr>
     </table>';
-    
-$output .= $table;
 
-$data[] = array(
-    'menu'  => __('Player Information', 'phpleague'),
-    'title' => __('Player Information', 'phpleague'),
-    'text'  => $output,
-    'class' => 'full'
+$settings = array(
+    'quicktags' => array('buttons' => 'em, strong, link',),
+    'text_area_name' =>'description',
+    'quicktags' => true,
+    'tinymce' => true
 );
 
-// Attach the editor to the textarea
-// Not working with WP 3.3+
-if (function_exists('wp_tiny_mce') && ! function_exists('wp_editor'))
-{
-    add_filter('teeny_mce_before_init', create_function('$a', '
-        $a["theme"] = "advanced";
-        $a["skin"] = "wp_theme";
-        $a["height"] = "300";
-        $a["width"] = "100%";
-        $a["onpageload"] = "";
-        $a["mode"] = "exact";
-        $a["elements"] = "description";
-        $a["editor_selector"] = "mceEditor";
-        $a["plugins"] = "safari,inlinepopups,spellchecker";
-        $a["forced_root_block"] = FALSE;
-        $a["force_br_newlines"] = FALSE;
-        $a["force_p_newlines"] = TRUE;
-        $a["convert_newlines_to_brs"] = TRUE;
-        return $a;')
-    );
-
-    wp_tiny_mce(TRUE);
-}
-
-$output  = $fct->textarea('description', esc_html($player->description), array('id' => 'description'));
-$output .= '<div class="submit">'.$fct->input('id_player', $id_player, array('type' => 'hidden')).
-        $fct->input('edit_player', __('Save', 'phpleague'), array('type' => 'submit')).'</div>';
-$output .= $fct->form_close();
-
-$data[] = array(
-    'menu'  => __('Player Information', 'phpleague'),
-    'title' => __('Player Biography', 'phpleague'),
-    'text'  => $output,
-    'class' => 'full'
-);
+wp_editor(esc_html($player->description), 'description', $settings);
+echo '<div class="submit">'.$fct->input('id_player', $id_player, array('type' => 'hidden')).$fct->input('edit_player', __('Save', 'phpleague'), array('type' => 'submit')).'</div>';
+echo $fct->form_close();
+echo '</div><div class="clear"></div></div></div></div>';
 
 // -- Add a new Team
 $teams_list[0] = __('-- Select a Team --', 'phpleague');
@@ -204,24 +187,18 @@ foreach ($db->get_teams_from_leagues() as $team)
     $league = $team->league_name.' '.$team->league_year.'/'.($team->league_year + 1);
     $teams_list[$league][$team->team_id] = esc_html($team->club_name);
 }
-
-$output  = $fct->form_open($page_url);
-$output .= $fct->select('id_team', $teams_list);
-$output .= __(' Select one team from a league.', 'phpleague');
-$output .= $fct->input('add_team', __('Add', 'phpleague'), array('type' => 'submit', 'class' => 'button'));
-$output .= $fct->form_close();
-
-$data[] = array(
-    'menu'  => __('Player Record', 'phpleague'),
-    'title' => __('Add a Team', 'phpleague'),
-    'text'  => $output,
-    'class' => 'full'
-);
+echo '<div class="adminpanel-content-box" id="adminpanel-content-2">';
+echo '<div class="section"><h3 class="heading">'.__('Player Record', 'phpleague').'</h3><div class="option"><div class="full">';
+echo $fct->form_open($page_url);
+echo $fct->select('id_team', $teams_list);
+echo __(' Select one team from a league.', 'phpleague');
+echo $fct->input('add_team', __('Add', 'phpleague'), array('type' => 'submit', 'class' => 'button'));
+echo $fct->form_close();
 
 // -- Player history
 $history = $db->get_player_history($id_player);
-$output  = $fct->form_open($page_url);
-$output .=
+echo $fct->form_open($page_url);
+echo
 '<table class="widefat">
     <thead>
         <tr>
@@ -246,21 +223,13 @@ $output .=
             $positions_list[$key] = $value; 
         }
 
-        $output .= '<tr id="'.$row->id_player_team.'"><td>'.esc_html($row->league).' '.$row->year.'/'.($row->year + 1).'</td>';
-        $output .= '<td>'.esc_html($row->club).'</td>';
-        $output .= '<td>'.$fct->input('history['.$row->id_team.'][number]', (int) $row->number, array('size' => 4)).'</td>';
-        $output .= '<td>'.$fct->select('history['.$row->id_team.'][id_position]', $positions_list, (int) $row->position).'</td>';
-        $output .= '<td>'.$fct->input('delete_player_team', __('Delete', 'phpleague'), array( 'type'  => 'button', 'class' => 'button delete_player_team')).'</td></tr>';
+        echo '<tr id="'.$row->id_player_team.'"><td>'.esc_html($row->league).' '.$row->year.'/'.($row->year + 1).'</td>';
+        echo '<td>'.esc_html($row->club).'</td>';
+        echo '<td>'.$fct->input('history['.$row->id_team.'][number]', (int) $row->number, array('size' => 4)).'</td>';
+        echo '<td>'.$fct->select('history['.$row->id_team.'][id_position]', $positions_list, (int) $row->position).'</td>';
+        echo '<td>'.$fct->input('delete_player_team', __('Delete', 'phpleague'), array( 'type'  => 'button', 'class' => 'button delete_player_team')).'</td></tr>';
     }
 
-$output .= '</tbody></table><div class="submit">';
-$output .= $fct->input('player_history', __('Save Table', 'phpleague'), array('type' => 'submit')).'</div>'.$fct->form_close();
-$data[]  = array(
-    'menu'  => __('Player Record', 'phpleague'),
-    'title' => __('Player History', 'phpleague'),
-    'text'  => $output,
-    'class' => 'full'
-);
-
-// Render the page
-echo $ctl->admin_container($menu, $data, $message);
+echo '</tbody></table><div class="submit">';
+echo $fct->input('player_history', __('Save Table', 'phpleague'), array('type' => 'submit')).'</div>'.$fct->form_close();
+echo '</div><div class="clear"></div></div></div></div></div>';

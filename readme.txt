@@ -2,7 +2,7 @@
 Contributors: Maxime Dizerens
 Donate link: http://www.gunners.fr/
 Tags: phpleague, football, sport, league, championship, soccer, handball, volleyball, basketball, hockey, sports, leagues
-Requires at least: 3.2
+Requires at least: 3.3
 Tested up to: 3.3.1
 Stable tag: 1.4.6
 
@@ -15,7 +15,7 @@ First, you activate and set up the plugin, which makes your site have all functi
 
 Bonus: I'm always listening to your requests and most of these are added regularly in the sourcecode improving the quality of PHPLeague. And by the way, PHPLeague will never be a premium plugin. It's 100% FREE and will stay that way!
 
-Requires WordPress 3.2+ and PHP 5.2+.
+Requires WordPress 3.3+ and PHP 5.2+.
 
 **Current features**
 
@@ -100,6 +100,7 @@ For more information, check out the PHPLeague project website: <https://github.c
 = 1.4.6 =
 * CHG: All characters are authorized
 * FIX: Database structure upgrade system has been improved
+* NEW: Database structure checking system
 
 = 1.4.5 =
 * NEW: Polish language is now available

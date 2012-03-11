@@ -78,7 +78,7 @@ if ( ! class_exists('PHPLeague_Admin')) {
                 $output .= '<div class="updated">';
                 foreach ($notification as $note)
                 {
-                    $output .= '<p>'.esc_html($note).'</p>';
+                    $output .= '<p>'.$note.'</p>';
                 }
                 $output .= '</div>';
             }
@@ -383,6 +383,47 @@ if ( ! class_exists('PHPLeague_Admin')) {
         {
             array_push($buttons, 'separator', 'PHPLeague');
             return $buttons;
+        }
+
+        /**
+         * Check the current database structure
+         *
+         * @return string
+         */
+        public function check_database_integrity()
+        {
+            $message = '';
+
+            // PHPLeague tables
+            global $wpdb;
+            $tables = array(
+                $wpdb->fixture      => 4,
+                $wpdb->league       => 23,
+                $wpdb->club         => 9,
+                $wpdb->country      => 2,
+                $wpdb->match        => 7,
+                $wpdb->table_cache  => 28,
+                $wpdb->team         => 4,
+                $wpdb->player       => 10,
+                $wpdb->player_team  => 5,
+                $wpdb->player_data  => 4,
+                $wpdb->table_chart  => 3,
+                $wpdb->table_predi  => 5
+            );
+
+            foreach ($tables as $key => $value)
+            {
+                $count = $wpdb->get_var($wpdb->prepare("SELECT COUNT(*) FROM INFORMATION_SCHEMA.COLUMNS WHERE table_schema = %s AND table_name = %s", DB_NAME, $key));
+                if ($count != $value)
+                {
+                    $message .= __("Table <b>$key</b> has a problem...<br />", 'phpleague');
+                }
+            }
+
+            if ($message === '')
+                $message = __("Your database structure is OK!", 'phpleague');
+
+            return $message;
         }
     }
 }
