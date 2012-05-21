@@ -135,8 +135,12 @@ $data[] = array(
 );
     
 $output  = $fct->form_open(admin_url($page_url));
-$output .= $fct->input('name', __('Name', 'phpleague'), array('readonly' => 'readonly', 'class' => 'default'));
-$output .= $fct->input('year', __('Year', 'phpleague'), array('readonly' => 'readonly', 'class' => 'default'));
+// tim modified - 1
+$output .= $fct->input('name', "", array('readonly' => 'readonly', 'class' => 'default', 'placeholder' => __('Name', 'phpleague')));
+$output .= $fct->input('year', "", array('readonly' => 'readonly', 'class' => 'default', 'placeholder' => __('Year', 'phpleague')));
+//$output .= $fct->input('name', __('Name', 'phpleague'), array('readonly' => 'readonly', 'class' => 'default'));
+//$output .= $fct->input('year', __('Year', 'phpleague'), array('readonly' => 'readonly', 'class' => 'default'));
+// tim modified - 0
 $output .= $fct->input('add_league', __('Create', 'phpleague'), array('type' => 'submit', 'class' => 'button'));
 $output .= $fct->form_close();
 

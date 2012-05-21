@@ -80,8 +80,12 @@ if ($total == 0)
     $message[] = __('We did not find any player in the database.', 'phpleague');
     
 $output  = $fct->form_open(admin_url($base_url));
-$output .= $fct->input('firstname', __('Firstname', 'phpleague'), array('readonly' => 'readonly', 'class' => 'default'));
-$output .= $fct->input('lastname', __('Lastname', 'phpleague'), array('readonly' => 'readonly', 'class' => 'default'));
+// tim modified - 1
+$output .= $fct->input('firstname', "", array('readonly' => 'readonly', 'class' => 'default', 'placeholder' => __('Firstname', 'phpleague')));
+$output .= $fct->input('lastname', "", array('readonly' => 'readonly', 'class' => 'default', 'placeholder' => __('Lastname', 'phpleague')));
+//$output .= $fct->input('firstname', __('Firstname', 'phpleague'), array('readonly' => 'readonly', 'class' => 'default'));
+//$output .= $fct->input('lastname', __('Lastname', 'phpleague'), array('readonly' => 'readonly', 'class' => 'default'));
+// tim modified - 0
 $output .= $fct->input('player', __('Create', 'phpleague'), array('type' => 'submit', 'class' => 'button'));
 $output .= $fct->form_close();
 

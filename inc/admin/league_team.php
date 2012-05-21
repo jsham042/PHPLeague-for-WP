@@ -23,6 +23,9 @@ $menu        = array(
     __('Matches', 'phpleague')  => admin_url('admin.php?page=phpleague_overview&option=match&id_league='.$id_league),
     __('Results', 'phpleague')  => admin_url('admin.php?page=phpleague_overview&option=result&id_league='.$id_league),
     __('Settings', 'phpleague') => admin_url('admin.php?page=phpleague_overview&option=setting&id_league='.$id_league)
+    // tim modified - 1
+    , __('Generate', 'phpleague') => admin_url('admin.php?page=phpleague_overview&option=generator&id_league='.$id_league)
+    // tim modified - 0    
 );
 
 // Data processing...

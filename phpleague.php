@@ -19,11 +19,11 @@
 */
 
 /*
-Plugin Name: PHPLeague
-Plugin URI: https://github.com/Mikaweb/PHPLeague-for-WP
+Plugin Name: PHPLeague (fork - thewheat)
+Plugin URI: https://github.com/thewheat/PHPLeague-for-WP
 Description: PHPLeague lets you managing your leagues without any hassles.
-Version: 1.4.6
-Author: Maxime Dizerens
+Version: 1.4.6.1
+Author: Maxime Dizerens (modified by Timothy Lim)
 Author URI: http://www.gunners.fr/
 */
 
@@ -123,7 +123,7 @@ if ( ! class_exists('PHPLeague')) {
          */
         public function define_constants()
         {
-            define('WP_PHPLEAGUE_VERSION', '1.4.6');
+            define('WP_PHPLEAGUE_VERSION', '1.4.6.1');
             define('WP_PHPLEAGUE_DB_VERSION', '1.3.2');
             define('WP_PHPLEAGUE_EDITION', $this->edition);
             define('WP_PHPLEAGUE_PATH', plugin_dir_path(__FILE__));
@@ -374,7 +374,7 @@ if ( ! class_exists('PHPLeague')) {
                 point_right TINYINT(1) unsigned NOT NULL DEFAULT '5',
                 point_wrong TINYINT(1) unsigned NOT NULL DEFAULT '0',
                 point_part TINYINT(1) unsigned NOT NULL DEFAULT '1',
-                deadline TINYINT(1) unsigned NOT NULL DEFAULT '1'
+                deadline TINYINT(1) unsigned NOT NULL DEFAULT '1',
                 PRIMARY KEY (id)";
 
             PHPLeague::run_install_or_upgrade($wpdb->league, $sql, $db_version);

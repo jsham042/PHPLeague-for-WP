@@ -31,6 +31,9 @@ $menu        = array(
     __('Matches', 'phpleague')  => '#',
     __('Results', 'phpleague')  => admin_url('admin.php?page=phpleague_overview&option=result&id_league='.$id_league),
     __('Settings', 'phpleague') => admin_url('admin.php?page=phpleague_overview&option=setting&id_league='.$id_league)
+    // tim modified - 1
+    , __('Generate', 'phpleague') => admin_url('admin.php?page=phpleague_overview&option=generator&id_league='.$id_league)
+    // tim modified - 0    
 );
 
 // Check what kind of fixtures we are dealing with (odd/even)
@@ -120,7 +123,7 @@ foreach ($db->get_distinct_league_team($id_league) as $array)
 for ($counter = $nb_matches; $counter > 0; $counter = $counter - 1)
 {
     // Get teams ID
-    foreach ($db->get_matches_by_fixture($id_fixture, $counter - 1) as $row)
+    foreach ($db->get_matches_by_fixture($id_fixture, $nb_matches - $counter ) as $row)
     {
         $team_home = (int) $row->id_team_home;
         $team_away = (int) $row->id_team_away;

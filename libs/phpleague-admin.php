@@ -149,6 +149,11 @@ if ( ! class_exists('PHPLeague_Admin')) {
             $ctl = new PHPLeague_Admin;
             $fct = new PHPLeague_Tools;
 
+			// tim modified - 1 - to allow apostrophe's in fields
+			$_POST = stripslashes_deep( $_POST );
+			$_GET = stripslashes_deep( $_GET );
+			// tim modified - 0 - to allow apostrophe's in fields
+            
             // Page Wrapper
             switch (trim($_GET['page']))
             {
@@ -318,6 +323,17 @@ if ( ! class_exists('PHPLeague_Admin')) {
                     'phpleague_about',
                     array($instance, 'admin_page')
                 );
+                // tim modified - 1
+                add_submenu_page(
+                    $parent,
+                    __('Settings (PHPLeague)', 'phpleague'),
+                    __('Settings', 'phpleague'),
+                    PHPLeague::$access,
+                    'phpleague_setting',
+                    array($instance, 'admin_page')
+                );
+                // tim modified - 0
+                
             }
         }
 
@@ -408,7 +424,10 @@ if ( ! class_exists('PHPLeague_Admin')) {
                 $wpdb->player_team  => 5,
                 $wpdb->player_data  => 4,
                 $wpdb->table_chart  => 3,
-                $wpdb->table_predi  => 5
+                // tim modified - 1
+                //$wpdb->table_predi  => 5
+                $wpdb->table_predi  => 4
+                // tim modified - 0
             );
 
             foreach ($tables as $key => $value)

@@ -25,6 +25,9 @@ $menu        = array(
     __('Matches', 'phpleague')  => admin_url('admin.php?page=phpleague_overview&option=match&id_league='.$id_league),
     __('Results', 'phpleague')  => admin_url('admin.php?page=phpleague_overview&option=result&id_league='.$id_league),
     __('Settings', 'phpleague') => admin_url('admin.php?page=phpleague_overview&option=setting&id_league='.$id_league)
+    // tim modified - 1
+    , __('Generate', 'phpleague') => admin_url('admin.php?page=phpleague_overview&option=generator&id_league='.$id_league)
+    // tim modified - 0    
 );
 
 // Data processing...
@@ -91,6 +94,27 @@ else
     // Security check
     if ($nb_fixtures != $fixtures_number)
     {
+    
+		// tim modified - 1 - prevent deletion of old fixtures! only delete what is necessary
+		if($nb_fixtures < $fixtures_number)
+		{
+			$number = $nb_fixtures+1;
+			while ($number <= $fixtures_number)
+			{
+				$db->add_fixtures_league($number, $id_league);
+				$number++;
+			}
+		}
+		else
+		{
+			$number = $fixtures_number+1;
+			while ($number <= $nb_fixtures)
+			{
+				$db->remove_fixtures_league($id_league, $number);
+				$number++;
+			}
+		}
+		/*
         // We removed the "old" data
         $db->remove_fixtures_league($id_league);
 
@@ -101,6 +125,9 @@ else
             $db->add_fixtures_league($number, $id_league);
             $number++;
         }
+		//*/
+		// tim modified - 0
+
     }
 
     // Years list

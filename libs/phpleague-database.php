@@ -502,17 +502,32 @@ if ( ! class_exists('PHPLeague_Database')) {
             return $wpdb->get_var($wpdb->prepare("SELECT COUNT(*) FROM $wpdb->fixture WHERE id_league = %d", $id_league));
         }
         
+        // tim modified - 1
         /**
          * Remove all the fixtures from a league
          *
          * @param  integer  $id_league
          * @return object
          */
-        public function remove_fixtures_league($id_league)
+        public function remove_fixtures_league_old($id_league)
         {
             global $wpdb;
             return $wpdb->query($wpdb->prepare("DELETE FROM $wpdb->fixture WHERE id_league = %d", $id_league));
         }
+
+        /**
+         * Remove specify fixture from a league. To prevent data loss.
+         *
+         * @param  integer  $id_league
+         * @param  integer  $number
+         * @return object
+         */
+        public function remove_fixtures_league($id_league, $number)
+        {
+            global $wpdb;
+            return $wpdb->query($wpdb->prepare("DELETE FROM $wpdb->fixture WHERE id_league = %d and number = %d", $id_league, $number));
+        }
+        // tim modified - 0
 
         /**
          * Count how many matches the team has at home/away
@@ -896,7 +911,7 @@ if ( ! class_exists('PHPLeague_Database')) {
                 AND m.id_fixture = f.id
                 AND f.number = %d
                 AND f.id_league = %d
-                ORDER BY m.played ASC",
+                ORDER BY m.id ASC",
                 $fixture,
                 $id_league)
             );
