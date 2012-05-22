@@ -37,7 +37,10 @@ if ( ! class_exists('PHPLeague_Front')) {
          */
         public static function print_front_styles()
         {
-            wp_register_style('phpleague-front', plugins_url('phpleague/assets/css/phpleague-front.css'));
+			// tim modified - 1
+            //wp_register_style('phpleague-front', plugins_url('phpleague/assets/css/phpleague-front.css'));
+            wp_register_style('phpleague-front', plugins_url('assets/css/phpleague-front.css', dirname(__FILE__)));
+			// tim modified - 0
             wp_enqueue_style('phpleague-front');
         }
 

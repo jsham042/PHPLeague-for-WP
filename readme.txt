@@ -4,6 +4,8 @@ Fork Author: Timothy Lim
 Fork Page  : https://github.com/thewheat/PHPLeague-for-WP/
 Fork Reason: To implement changes that are more suited for my use case
 
+Note: if something doesn't work / doesn't display, try renaming the plugin directory to "phpleague" and please inform me of the issue as well
+
 I totally commend Maxime for creating this plugin which suits one of my clients use case, however I found that the plugin was a bit lacking in areas and not very usable. This is my attempt to make it more usable for the betterment of the plugin itself.
 =============================================================================================
 

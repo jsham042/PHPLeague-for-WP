@@ -39,7 +39,8 @@ if ( ! class_exists('PHPLeague_Admin')) {
         {
             return '<div id="adminpanel"><div id="adminpanel-header"><div class="logo"><a href="'
                     .admin_url('admin.php?page=phpleague_overview').'"><img alt="" src="'
-                    .plugins_url('phpleague/assets/img/logo.png').'" /></a></div><div class="theme-info">'
+                    .plugins_url('assets/img/logo.png', dirname(__FILE__)).'" /></a></div><div class="theme-info">'
+                    //.plugins_url('phpleague/assets/img/logo.png').'" /></a></div><div class="theme-info">'
                     .'<span class="plugin">'.__('PHPLeague', 'phpleague').'</span>'
                     .'<span class="release">'.__('Release: ', 'phpleague').WP_PHPLEAGUE_VERSION.'</span>'
                     .'</div></div><div id="support-links"><ul><li class="changelog">'
@@ -230,8 +231,10 @@ if ( ! class_exists('PHPLeague_Admin')) {
                 // We quit if the current page isn't one of PHPLeague
                 if ( ! in_array(trim($_GET['page']), PHPLeague::$pages))
                     return;
-
-                wp_register_style('phpleague-backend', plugins_url('phpleague/assets/css/phpleague-admin.css'));
+                // tim modified - 1
+                //wp_register_style('phpleague-backend', plugins_url('phpleague/assets/css/phpleague-admin.css'));
+                wp_register_style('phpleague-backend', plugins_url('assets/css/phpleague-admin.css', dirname(__FILE__)));
+                // tim modified - 0
                 wp_enqueue_style('phpleague-backend');
             }
         }
@@ -256,8 +259,12 @@ if ( ! class_exists('PHPLeague_Admin')) {
                 wp_register_script('jquery', ('http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js'), FALSE, NULL, TRUE);
                 wp_enqueue_script('jquery');
 
-                wp_register_script('phpleague', plugins_url('phpleague/assets/js/admin.js'), array('jquery'));
-                wp_register_script('phpleague-mask', plugins_url('phpleague/assets/js/jquery.maskedinput.js'), array('jquery'));
+                // tim modified - 1
+                wp_register_script('phpleague', plugins_url('assets/js/admin.js', dirname(__FILE__)), array('jquery'));
+                wp_register_script('phpleague-mask', plugins_url('assets/js/jquery.maskedinput.js', dirname(__FILE__)), array('jquery'));
+                //wp_register_script('phpleague', plugins_url('phpleague/assets/js/admin.js'), array('jquery'));
+                //wp_register_script('phpleague-mask', plugins_url('phpleague/assets/js/jquery.maskedinput.js'), array('jquery'));
+                // tim modified - 0
                 wp_enqueue_script('phpleague-mask');
                 wp_enqueue_script('phpleague');
             }
@@ -282,7 +289,10 @@ if ( ! class_exists('PHPLeague_Admin')) {
                     PHPLeague::$access,
                     $parent,
                     array($instance, 'admin_page'),
+                    // tim modified - 1
+                    //plugins_url('assets/img/league.png', dirname(__FILE__))
                     plugins_url('phpleague/assets/img/league.png')
+                    // tim modified - 0
                 );
             }
             
@@ -385,7 +395,10 @@ if ( ! class_exists('PHPLeague_Admin')) {
          */
         public function add_editor_plugin($plugin_array)
         {
-            $plugin_array['PHPLeague'] = plugins_url('phpleague/assets/js/tinymce/editor_plugin.js');
+            // tim modified - 1
+            $plugin_array['PHPLeague'] = plugins_url('assets/js/tinymce/editor_plugin.js', dirname(__FILE__));
+            //$plugin_array['PHPLeague'] = plugins_url('phpleague/assets/js/tinymce/editor_plugin.js');
+            // tim modified - 0
             return $plugin_array;
         }
         

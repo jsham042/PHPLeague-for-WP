@@ -22,8 +22,10 @@ require_once ABSPATH.'/wp-admin/admin.php';
 if ( ! current_user_can('phpleague')) die();
 
 // Load PHPLeague tools
-require_once ABSPATH.'/wp-content/plugins/phpleague/libs/phpleague-tools.php';
-
+// tim modified - 1
+require_once dirname(dirname(dirname(dirname(__FILE__)))). '/libs/phpleague-tools.php';
+//require_once ABSPATH.'/wp-content/plugins/phpleague/libs/phpleague-tools.php';
+// tim modified - 0
 $tools = new PHPLeague_Tools();
 
 // Database stuffs
@@ -58,7 +60,10 @@ $site_url = get_option('siteurl');
     <script language="javascript" type="text/javascript" src="<?php echo $site_url; ?>/wp-includes/js/tinymce/tiny_mce_popup.js"></script>
     <script language="javascript" type="text/javascript" src="<?php echo $site_url; ?>/wp-includes/js/tinymce/utils/mctabs.js"></script>
     <script language="javascript" type="text/javascript" src="<?php echo $site_url; ?>/wp-includes/js/tinymce/utils/form_utils.js"></script>
-    <script language="javascript" type="text/javascript" src="<?php echo plugins_url('phpleague/assets/js/tinymce/tinymce.js'); ?>"></script>
+    <?php // modified - 1 ?>
+    <script language="javascript" type="text/javascript" src="<?php echo plugins_url('tinymce/tinymce.js', dirname(__FILE__)); ?>"></script>
+    <?php /* <script language="javascript" type="text/javascript" src="<?php echo plugins_url('phpleague/assets/js/tinymce/tinymce.js'); ?>"></script> */ ?>
+    <?php // modified - 0 ?>
     <base target="_self" />
 </head>
 <body id="link" onload="tinyMCEPopup.executeOnLoad('init();');document.body.style.display='';document.getElementById('league_id').focus();" style="display: none">
