@@ -290,8 +290,8 @@ if ( ! class_exists('PHPLeague_Admin')) {
                     $parent,
                     array($instance, 'admin_page'),
                     // tim modified - 1
-                    //plugins_url('assets/img/league.png', dirname(__FILE__))
-                    plugins_url('phpleague/assets/img/league.png')
+                    plugins_url('assets/img/league.png', dirname(__FILE__))
+                    //plugins_url('phpleague/assets/img/league.png')
                     // tim modified - 0
                 );
             }
