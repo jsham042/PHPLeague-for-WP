@@ -10,11 +10,17 @@
  */
 
 // ID Fixture
-$id_fixture = ( ! empty($_GET['id_fixture']) && $db->is_fixture_exists($_GET['id_fixture']) === TRUE)
+$id_fixture = ( ! empty($_GET['id_fixture']) && $db->is_fixture_exists($_GET['id_fixture'],$id_league) === TRUE)
     ? (int) $_GET['id_fixture'] : 1;
 
 if ($db->is_league_exists($id_league) === FALSE)
     wp_die(__('We did not find the league in the database.', 'phpleague'));
+
+// if fixture does not exist, warn user (perhaps database manually deleted)
+if($db->is_fixture_exists($_GET['id_fixture'], $id_league) !== TRUE)
+{
+	$message[] = __('The fixture does not exist. Please resave fixtures.', 'phpleague');
+}
 
 // Variables
 $league_name = $db->return_league_name($id_league);

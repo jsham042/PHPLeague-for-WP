@@ -478,10 +478,10 @@ if ( ! class_exists('PHPLeague_Database')) {
          * @param  integer $id_fixture
          * @return boolean
          */
-        public function is_fixture_exists($id_fixture)
+        public function is_fixture_exists($id_fixture, $id_league)
         {
             global $wpdb;
-            $exist = $wpdb->get_var($wpdb->prepare("SELECT COUNT(*) FROM $wpdb->fixture WHERE id = %d", $id_fixture));
+            $exist = $wpdb->get_var($wpdb->prepare("SELECT COUNT(*) FROM $wpdb->fixture WHERE number = %d and id_league = %d", $id_fixture, $id_league));
             
             // We didn't find a row
             if ($exist == 0)
