@@ -22,10 +22,12 @@
 Plugin Name: PHPLeague (fork - thewheat)
 Plugin URI: https://github.com/thewheat/PHPLeague-for-WP
 Description: PHPLeague lets you managing your leagues without any hassles.
-Version: 1.4.6.1
+Version: 1.4.7.1
 Author: Maxime Dizerens (modified by Timothy Lim)
 Author URI: http://www.gunners.fr/
 */
+error_reporting(E_ALL); 
+
 
 if ( ! class_exists('PHPLeague')) {
     
@@ -123,7 +125,7 @@ if ( ! class_exists('PHPLeague')) {
          */
         public function define_constants()
         {
-            define('WP_PHPLEAGUE_VERSION', '1.4.6.1');
+            define('WP_PHPLEAGUE_VERSION', '1.4.7.1');
             define('WP_PHPLEAGUE_DB_VERSION', '1.3.2');
             define('WP_PHPLEAGUE_EDITION', $this->edition);
             define('WP_PHPLEAGUE_PATH', plugin_dir_path(__FILE__));

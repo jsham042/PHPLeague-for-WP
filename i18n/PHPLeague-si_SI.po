@@ -3,20 +3,23 @@ msgstr ""
 "Project-Id-Version: PHPLeague\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-02-29 21:39+0100\n"
-"PO-Revision-Date: 2012-04-05 20:15-0300\n"
-"Last-Translator: el <josmurcia@gmail.com>\n"
+"PO-Revision-Date: 2013-03-16 16:23+0100\n"
+"Last-Translator: Maxime Dizerens <mdizerens@gmail.com>\n"
 "Language-Team: Mikaweb <mikaweb@gunners.fr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
-"X-Poedit-Basepath: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague\n"
-"X-Poedit-Language: English\n"
-"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/"
+"phpleague\n"
+"Language: en\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/www/wp-dev/wp-content/"
+"plugins/phpleague\n"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/phpleague.php:162
 msgid "Permission insufficient to run PHPLeague!"
-msgstr "Permisos insuficientes para ejecutar el programa!"
+msgstr "Nimate dovoljenja za zagon PHPLeague!"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:56
 msgid "PHPLeague"
@@ -24,7 +27,7 @@ msgstr "PHPLeague"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:68
 msgid "Tables"
-msgstr "Tablas"
+msgstr "Tabele"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:69
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_fixture.php:24
@@ -35,13 +38,13 @@ msgstr "Tablas"
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:22
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:163
 msgid "Fixtures"
-msgstr "Jornadas"
+msgstr "Krogi"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:70
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:145
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_fixture.php:129
 msgid "Fixture"
-msgstr "Jornada"
+msgstr "Krog"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:71
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:16
@@ -51,7 +54,7 @@ msgstr "Jornada"
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:110
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:117
 msgid "Clubs"
-msgstr "Clubs"
+msgstr "Ekipe"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:79
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:120
@@ -62,31 +65,31 @@ msgstr "Liga"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:96
 msgid "Style"
-msgstr "Estilo"
+msgstr "Stil"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:99
 msgid "Normal"
-msgstr "Normal"
+msgstr "Normalen"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:100
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_match.php:111
 msgid "Home"
-msgstr "Local"
+msgstr "Doma"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:101
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_match.php:112
 msgid "Away"
-msgstr "Visitante"
+msgstr "V gosteh"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:106
 msgid "Show latest results"
-msgstr "Mostrar los últimos resultados"
+msgstr "Prikaži zadnji rezultat"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:109
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:172
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:119
 msgid "No"
-msgstr "No"
+msgstr "Ne"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:110
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:180
@@ -95,27 +98,30 @@ msgstr "No"
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:204
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:119
 msgid "Yes"
-msgstr "Si"
+msgstr "Da"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:135
 msgid "ID Team"
-msgstr "ID de Equipo"
+msgstr "ID Ekipe"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:139
-msgid "Display all fixtures for a chosen league or only those for a team into that particular league."
-msgstr "Mostrar todos los calendarios de una liga seleccionada o solo una liga particular de un equipo."
+msgid ""
+"Display all fixtures for a chosen league or only those for a team into that "
+"particular league."
+msgstr ""
+"Prikaži vse kroge za določeno ligo, ali samo kroge ene ekipe v določeni ligi."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:158
 msgid "Club"
-msgstr "Club"
+msgstr "Ekipa"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:178
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Prekliči"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/assets/js/tinymce/window.php:181
 msgid "Insert"
-msgstr "Insertar"
+msgstr "Vstavi"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:15
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:25
@@ -129,7 +135,7 @@ msgstr "Insertar"
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:81
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:173
 msgid "Dashboard"
-msgstr "Escritorio"
+msgstr "Nadzorna Plošča"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:17
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:125
@@ -137,7 +143,7 @@ msgstr "Escritorio"
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:140
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:147
 msgid "Players"
-msgstr "Jugadores"
+msgstr "Igralci"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:18
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:211
@@ -154,7 +160,7 @@ msgstr "Widgets"
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:252
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:259
 msgid "About"
-msgstr "Sobre"
+msgstr "Več o"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:26
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:90
@@ -170,197 +176,276 @@ msgstr "Sobre"
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:89
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:124
 msgid "Overview"
-msgstr "General"
+msgstr "Pregled"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:27
-msgid "This page is your dashboard and the main point of contact to manage most of the actions."
-msgstr "Esta página es tú escritorio y el punto principal para manejar la mayoría de las acciones."
+msgid ""
+"This page is your dashboard and the main point of contact to manage most of "
+"the actions."
+msgstr ""
+"Dobrodošel na nadzorni plošči, iz katere je mogoče opraviti večino operacij!"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:33
 msgid "Create a League"
-msgstr "Crea Liga"
+msgstr "Ustvari Ligo"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:34
 msgid "Choose a name and a year then you can create your league."
-msgstr "Elige un nombre y un año para crear tú liga."
+msgstr "Izberi ime in leto za vnos nove Ekipe."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:40
 msgid "Delete a League"
-msgstr "Eliminar Liga"
+msgstr "Izbriši Ligo"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:41
-msgid "Keep in mind that once you delete a league, all data associated will be destroyed."
-msgstr "Recuerda que una vez eliminada una liga, toda la información asociada será desechada."
+msgid ""
+"Keep in mind that once you delete a league, all data associated will be "
+"destroyed."
+msgstr "Pozor!! Z izbrisom lige boste izgubili vse povezane podtake."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:47
 msgid "Manage Teams"
-msgstr "Manejar Equipos"
+msgstr "Upravljanje Ekip"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:48
-msgid "The first thing you need to do once your league has been created is to assign it teams. You can have an odd or even number of teams, PHPLeague is handling every case smoothly, but still two teams minimum are required. A little counter is showing you how many teams are in the current league.You can remove more than once team at the same time too."
-msgstr "Lo primero que hay que hacer una vez que su liga se ha creado es asignarle equipos. Usted puede tener un número par o impar de equipos, PHPLeague se encarga de todos los casos sin problemas, pero con un mínimo de dos equipos son obligatorios. Un contador muestra cuántos equipos se encuentran en la liga actual. Ustede puede eliminar más de un equipo al mismo tiempo."
+msgid ""
+"The first thing you need to do once your league has been created is to "
+"assign it teams. You can have an odd or even number of teams, PHPLeague is "
+"handling every case smoothly, but still two teams minimum are required. A "
+"little counter is showing you how many teams are in the current league.You "
+"can remove more than once team at the same time too."
+msgstr ""
+"Po vnosu nove lige, ji je potrebno določiti pripadajoče ekipe. Število ekip "
+"je lahko sodo ali liho, PHPLeague poskrbi za oba primera. edina omejtive so "
+"najmanj 2 ekipi na ligo. Majhen števec vam kaže število ekip v določeni "
+"ligi. Mogoče je odstraniti več ekip hkrati! "
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:54
 msgid "Manage Fixtures"
-msgstr "Manejar Calendarios"
+msgstr "Upravljanje z Krogi"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:55
-msgid "In the fixtures section, you will be asked to fill in every fixtures date. Be aware that the fixtures time is automatically added in the database. This time can be override in the settings section but then you have to come back here and save it one more time to update all fixtures date time."
-msgstr "En la sección de calendarios, se le pedirá que llene cada fecha. Tenga en cuenta que el tiempo de los calendarios se añaden automáticamente en la base de datos. Este tiempo puede ser reemplazado en la sección de configuración, pero luego tienes que volver aquí y guardarlo una vez más para actualizar todos los tiempos de las fechas."
+msgid ""
+"In the fixtures section, you will be asked to fill in every fixtures date. "
+"Be aware that the fixtures time is automatically added in the database. This "
+"time can be override in the settings section but then you have to come back "
+"here and save it one more time to update all fixtures date time."
+msgstr ""
+"V sekciji Krogi, boste morali vnesti datume vsakega kroga tekomvanja.  Be "
+"aware that the fixtures time is automatically added in the database. This "
+"time can be override in the settings section but then you have to come back "
+"here and save it one more time to update all fixtures date time."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:61
 msgid "Manage Matches"
-msgstr "Manejar Partidos"
+msgstr "Upravljanje Tekem"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:62
-msgid "In the matches sections, you have to relate every match between each others. Take time to fill in all the data because it is very easy to make a mistake. You can check if the data are OK in your teams section. Be aware that if you do not fill in the fixtures, you will not be able to fill in the matches."
-msgstr "En las secciones de los partidos, lo que tiene que vincular es cada partido entre unos y otros. Tómese el tiempo para llenar todos los datos, ya que es muy fácil cometer un error. Usted puede verificar si los datos están bien en la sección de equipos. Tenga en cuenta que si no se llenan en los calendarios, usted no será capaz de llenar los partidos."
+msgid ""
+"In the matches sections, you have to relate every match between each others. "
+"Take time to fill in all the data because it is very easy to make a mistake. "
+"You can check if the data are OK in your teams section. Be aware that if you "
+"do not fill in the fixtures, you will not be able to fill in the matches."
+msgstr ""
+"V sekciji Tekme, morate povezati tekmovalne pare med seboj. Vzemi si čas za "
+"pravilen vnos vsheh podatkov. Ustreznost podatkov preverite v sekciji Ekipe. "
+"Če ne vnesete krogov tekmovanj, ne boste mogli vpisovati tekem!"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:68
 msgid "Manage Results"
-msgstr "Manejar Resultados"
+msgstr "Upravljanje Rezultatov"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:69
-msgid "In the results section, you will be asked to fill in all the results for a fixture. If you want to add the results of a team before all the others, that is not a problem. Let every input blank and fill in the one you are interested in."
-msgstr "En la sección de resultados, se le pedirá que rellene todos los resultados de un calendario. Si desea agregar los resultados de un equipo antes de que todos los demás, no es un problema. Deje todos los espacios de entrada y rellene el que está interesado."
+msgid ""
+"In the results section, you will be asked to fill in all the results for a "
+"fixture. If you want to add the results of a team before all the others, "
+"that is not a problem. Let every input blank and fill in the one you are "
+"interested in."
+msgstr ""
+"V sekciji Rezultati, boste vnašali rezultate za vsak krog tekmovanja. ČE "
+"želite da je rezultat ene ekipe objavljen pred ostalimi enostavno izpolnite "
+"željen par in ostalo pustite prazno."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:75
 msgid "Manage Settings"
-msgstr "Manejar Opciones"
+msgstr "Upravljanje Nastavitev"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:76
-msgid "In this section, you have the possibility to setup every option available with the plugin like the number of points for a victory, a draw or a defeat. It might happen that a club received a penalty point or more than one. No problem, the plugin handle this perfectly. You can also use this to add \"bonus\" point."
-msgstr "En esta sección, usted tiene la posibilidad de configurar todas las opciones disponibles d el plugin al igual que el número de puntos por una victoria, un empate o una derrota. Puede ocurrir que un club recibió una penalización por puntos o más de uno. No hay problema, el plugin puede manejar esto a la perfección. También se puede usar esto para añadir \"bonus\"  punto."
+msgid ""
+"In this section, you have the possibility to setup every option available "
+"with the plugin like the number of points for a victory, a draw or a defeat. "
+"It might happen that a club received a penalty point or more than one. No "
+"problem, the plugin handle this perfectly. You can also use this to add "
+"\"bonus\" point."
+msgstr ""
+"V tej sekciji, boste lahko nastavili možnosti vtičnika, kot so  št. točk za "
+"zmago, neodločen rezultat, poraz. Če si je kljub prislužil negativno toćko "
+"ali kakšen bonus lahko to upravljate v tej sekciji"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:82
 msgid "The Generator"
-msgstr "El Generador"
+msgstr "Procesiranje podtakov"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:83
-msgid "This is the final step in order to update your table. When you choose to generate your table, every result will be calculated according to your settings and the database table will be filled in with the latest data."
-msgstr "Este es el paso final con el fin de actualizar la tabla. Cuando usted elige para generar la tabla, cada resultado se calculará de acuerdo a la configuración y la tabla de base de datos se llenarán con los datos más recientes."
+msgid ""
+"This is the final step in order to update your table. When you choose to "
+"generate your table, every result will be calculated according to your "
+"settings and the database table will be filled in with the latest data."
+msgstr ""
+"To je zadnji korak, ki zagotovi da se vnešeni podatki obnovijo v bazi "
+"podatkov. S Procesiranjem podatkov, se bodo izvršijo kalkulacije, glede na "
+"nastavitve in se posodobi bazo podatkov z novimi vrednostmi."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:91
-msgid "This section of the plugin is entirely dedicated to the clubs management. You can add, edit or even delete a club once created."
-msgstr "Esta sección del plugin está enteramente dedicada a la gestión de los clubes. Usted puede agregar, editar o incluso borrar un club una vez creado."
+msgid ""
+"This section of the plugin is entirely dedicated to the clubs management. "
+"You can add, edit or even delete a club once created."
+msgstr ""
+"Ta skcija priključka je posvečena upravljanju klubov. Klube lahko urejta, "
+"brišete ali ustvarite nove."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:97
 msgid "Add a Club"
-msgstr "Añadir un Club"
+msgstr "Dodaj Klub"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:98
-msgid "Create a club is really simple. You just need to choose a name and assign him a country."
-msgstr "Crear un club es muy sencillo. Sólo tiene que elegir un nombre y asignarle un país."
+msgid ""
+"Create a club is really simple. You just need to choose a name and assign "
+"him a country."
+msgstr ""
+"Ustvariti Klub je zelo enostavno. Izbertie Ime Kluba in mu določite Državo"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:104
 msgid "Edit a Club"
-msgstr "Editar un Club"
+msgstr "Uredi Klub"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:105
 msgid "Once your club is available, you can edit it by clicking on his name."
-msgstr "Una vez que su equipo está disponible, se puede editar haciendo click en su nombre."
+msgstr "Ko ste ustvarili Klub, ga lahku urejta tako, da kliknete nanj"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:111
 msgid "Delete a Club"
-msgstr "Eliminar un Club"
+msgstr "Izbriši Klub"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:112
-msgid "Keep in mind that once you delete a club, all data associated will be destroyed."
-msgstr "Tenga en cuenta que una vez que elimine un club, todos los datos asociados serán destruidos."
+msgid ""
+"Keep in mind that once you delete a club, all data associated will be "
+"destroyed."
+msgstr "Pozor! Ko izbrišete klub, bodo vsi podatki, povezani uniči."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:118
 msgid "The Countries"
-msgstr "Los países"
+msgstr "Države"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:119
-msgid "By default, the countries are in English but you can update them from your MySQL Administration software. The French version is available in the i18n folder of your plugin."
-msgstr "De forma predeterminada, los países están en Inglés pero se pueden actualizar desde el software de administración de MySQL. La versión en francés está disponible en la carpeta i18n de su plug-in."
+msgid ""
+"By default, the countries are in English but you can update them from your "
+"MySQL Administration software. The French version is available in the i18n "
+"folder of your plugin."
+msgstr ""
+"Privzeto je, da so države v angleščini, vendar se jih lahko posodobi prek "
+"MySQL."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:127
-msgid "This section of the plugin is entirely dedicated to the players management. You can add, edit or even delete a player once created."
-msgstr "En esta sección del plugin está enteramente dedicada a la gestión de los jugadores. Usted puede agregar, editar o incluso borrar a un jugador una vez creado."
+msgid ""
+"This section of the plugin is entirely dedicated to the players management. "
+"You can add, edit or even delete a player once created."
+msgstr ""
+"Ta sekcija je namenjena upravljanju z Igralci. Lahko dodate, urejate in "
+"izbrišete igralce."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:134
 msgid "Add a Player"
-msgstr "Agregar un Jugador"
+msgstr "Dodaj Igralca"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:135
-msgid "Create a player is really simple. You just need to choose a firstname and a lastname."
-msgstr "Crear un jugador es realmente simple. Sólo tiene que elegir un nombre y un apellido."
+msgid ""
+"Create a player is really simple. You just need to choose a firstname and a "
+"lastname."
+msgstr ""
+"Ustvarjanje novega igralca je enostavno z določitvijo Imena in Priimka."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:141
 msgid "Edit a Player"
-msgstr "Editar un Jugador"
+msgstr "Uredi Igralca"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:142
-msgid "Once your player is available, you can edit it by clicking on his name. In edition mode, you can assign teams in the player profile. Once assigned, the player is available in the \"results\" section."
-msgstr "Una vez que el jugador está disponible, se puede editar haciendo click en su nombre. En el modo de edición, puede asignar los equipos en el perfil de jugador. Una vez asignado, el jugador se encuentra disponible en la carpeta \"results\"."
+msgid ""
+"Once your player is available, you can edit it by clicking on his name. In "
+"edition mode, you can assign teams in the player profile. Once assigned, the "
+"player is available in the \"results\" section."
+msgstr ""
+"Ko ustvarite igraleca, ga lahko uredite tako, da kliknete na njegovo ime.  "
+"In edition mode, you can assign teams in the player profile. Once assigned, "
+"the player is available in the \"results\" section."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:148
 msgid "Delete a Player"
-msgstr "Eliminar un Jugador"
+msgstr "Izbriši Igralca"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:149
-msgid "Keep in mind that once you delete a player, all data associated will be destroyed."
-msgstr "Tenga en cuenta que una vez que se elimina a un jugador, todos los datos asociados serán destruidos."
+msgid ""
+"Keep in mind that once you delete a player, all data associated will be "
+"destroyed."
+msgstr "Pozor!! Z izbrisom igralca boste izgubili vse povezane podtake."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:157
 msgid "Parameter"
-msgstr "Parámetro"
+msgstr "Parameter"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:158
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:223
 msgid "Description"
-msgstr "Descripción"
+msgstr "Opis"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:159
 msgid "Data Type"
-msgstr "Tipo de Información"
+msgstr "Tip Podatkov"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:160
 msgid "Type"
-msgstr "Tipo"
+msgstr "Tip"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:161
 msgid "Default"
-msgstr "Por Defecto"
+msgstr "Privzeto"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:162
 msgid "Optional"
-msgstr "Opcional"
+msgstr "Neobvezno"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:168
 msgid "League ID"
-msgstr "ID de la Liga"
+msgstr "ID Lige"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:176
 msgid "Information to show => \"table/fixtures/fixture\""
-msgstr "Información para mostrar => \"table/fixtures/fixture\""
+msgstr "Prikazana informacija => \"table/fixtures/fixture\""
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:184
 msgid "Kind of style => \"general/home/away\""
-msgstr "Tipo de estilo => \"general/home/away\""
+msgstr "Vrsta stila => \"general/home/away\""
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:186
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:202
 msgid "table"
-msgstr "tabla"
+msgstr "Tabela"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:192
 msgid "Show all fixtures but only for that team"
-msgstr "Mostrar todos los calendarios pero solo para un equipo"
+msgstr "Prikaži vse kroge ene Ekipe"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:194
 msgid "fixtures"
-msgstr "calendarios"
+msgstr "krogi"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:200
 msgid "Show the 5 latest results in ranking table"
-msgstr "Mostrar los últimos 5 resultados en la tabla"
+msgstr "Prikaži zadnjih 5 rezultatov na lestivici"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:212
 msgid "Shortcodes Listing"
-msgstr "Lista de Shortcodes"
+msgstr "Seznam \"Shortcodes\""
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:222
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club.php:114
@@ -368,102 +453,116 @@ msgstr "Lista de Shortcodes"
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:127
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:105
 msgid "Name"
-msgstr "Nombre"
+msgstr "Ime"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:224
 msgid "Option"
-msgstr "Opción"
+msgstr "Možnost"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:229
 msgid "PHPleague Ranking Table"
-msgstr "PHPleague Tabla de Posiciones"
+msgstr "PHPleague Lestvica"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:230
 msgid "Display a lightweight ranking table"
-msgstr "Mostrar una tabla de clasificación ligera"
+msgstr "Prikaži osnovno lestvico"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:231
 msgid "Select one league from the dropdown list"
-msgstr "Seleccione una liga de la lista desplegable"
+msgstr "Izberi ekipo iz spustnega seznama"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:238
 msgid "Widgets Listing"
-msgstr "Lista de Widgets"
+msgstr "Seznam Widgets"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:247
 msgid "You are currently using the <b>ULTIMATE</b> Edition of PHPLeague."
-msgstr "Actualmente esta utilizando la <b>ÚLTIMA</b> Edición de PHPLeague."
+msgstr "Trenutno uporabljate <b>ULTIMATE</b> verzijo PHPLeague."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:253
 msgid "Requirements"
-msgstr "Requerimientos"
+msgstr "Minimalne Zahteve"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:254
-msgid "I did not test the plugin under all Operating Systems but I am pretty sure it must handle every environment. As WordPress 3.1+, the minimum version of PHP required is 5.2.4 or greater and MySQL version 5 or greater for your database. Javascript must be enabled in the back-end of PHPLeague."
-msgstr "No he probado el plugin en todos los sistemas operativos, pero estoy bastante seguro de que debe manejar todos los ambientes. Funciona con WordPress 3.1+, la versión mínima de PHP requerida es 5.2.4 o superior y MySQL versión 5 o superior para su base de datos. JavaScript debe estar habilitado en el back-end de PHPLeague."
+msgid ""
+"I did not test the plugin under all Operating Systems but I am pretty sure "
+"it must handle every environment. As WordPress 3.1+, the minimum version of "
+"PHP required is 5.2.4 or greater and MySQL version 5 or greater for your "
+"database. Javascript must be enabled in the back-end of PHPLeague."
+msgstr ""
+"I did not test the plugin under all Operating Systems but I am pretty sure "
+"it must handle every environment. As WordPress 3.1+, the minimum version of "
+"PHP required is 5.2.4 or greater and MySQL version 5 or greater for your "
+"database. Javascript must be enabled in the back-end of PHPLeague."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:260
 msgid "Thanks"
-msgstr "Gracias"
+msgstr "Hvala"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/about.php:261
-msgid "I would like to thanks everybody who contribute - indirectly - to develop this Plugin. The names I have in mind are: Alexis Mangin, jQuery Developers and WordPress Developers."
-msgstr "Me gustaría agradecer a todos los que contribuyen - indirectamente - al desarrollo de este plugin. Los nombres que tengo en mente son: Alexis Mangin, Desarrolladores jQuery y desarrolladores de WordPress."
+msgid ""
+"I would like to thanks everybody who contribute - indirectly - to develop "
+"this Plugin. The names I have in mind are: Alexis Mangin, jQuery Developers "
+"and WordPress Developers."
+msgstr ""
+"Rad bi se zahvalil vsem, ki prispevajo - indirektno - pri razvoju tega "
+"vtičnika. Osebe v mislih: Alexis Mangin, jQuery Developers and WordPress "
+"Developers."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club.php:45
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:57
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:67
 msgid "The name cannot be empty."
-msgstr "El nombre no puede ser vacío."
+msgstr "Polje Ime ne more biti prazno"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club.php:49
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:70
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:61
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:71
 msgid "The name must be alphanumeric and 3 characters long at least."
-msgstr "El nombre debe ser alfanumérico y con 3 caracteres de longitud como mínimo."
+msgstr "Ime mora biti sestavljeno iz 3 najmanj treh alfanumeričnih znakov."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club.php:53
 msgid "The club "
-msgstr "El Club"
+msgstr "Klub"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club.php:57
 msgid "Club added successfully."
-msgstr "Club agregado satisfactoriamente."
+msgstr "Uspešno ste dodali Klub"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club.php:68
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:56
 msgid "We are sorry but it seems that you did not select a club."
-msgstr "Lo sentimos, pero parece que no ha seleccionado ningún club."
+msgstr "Oprostite, izgleda da niste izbrali Kluba."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club.php:82
 msgid "Club deleted successfully with all data associated."
-msgstr "Club borrado con éxito junto con todos los datos asociados."
+msgstr "Uspešno ste odstranili klub in vse povezane podatke."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club.php:84
 msgid "Clubs deleted successfully with all data associated."
-msgstr "Clubs borrados con éxito junto con todos los datos asociados."
+msgstr "Uspešno ste odstranili klube in vse povezane podatke."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club.php:90
 msgid "We did not find any club in the database."
-msgstr "No se encontro ningún club en la base de datos."
+msgstr "V bazi podatkov ni podatkov o Klubih"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club.php:94
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:129
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:85
 msgid "Create"
-msgstr "Crear"
+msgstr "Ustvari"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club.php:99
 msgid "New Club"
-msgstr "Nuevo Club"
+msgstr "Nov Klub"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club.php:106
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:144
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:97
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:253
 msgid "Delete"
-msgstr "Eliminar"
+msgstr "Ibriši"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club.php:113
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:115
@@ -473,87 +572,89 @@ msgstr "ID"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club.php:115
 msgid "Country"
-msgstr "País"
+msgstr "Država"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club.php:116
 msgid "Coach"
-msgstr "Director Técnico"
+msgstr "Trener"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club.php:117
 msgid "Venue"
-msgstr "Estadio"
+msgstr "Domače igrišče"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club.php:136
 msgid "Clubs Listing"
-msgstr "Lista de Clubes"
+msgstr "Seznam Klubov"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:16
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:124
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:125
 msgid "Club Information"
-msgstr "Información de Club"
+msgstr "Inforamcije o Klubih"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:20
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:36
 msgid "We did not find the club in the database."
-msgstr "No hemos encontrado el club en la base de datos."
+msgstr "V bazi podatkov nismo našli iskanega kluba"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:39
-msgid "The venue must be alphanumeric and 5 characters long at least (optional)."
-msgstr "El estadio debe ser alfanumérico y al menos de 5 caracteres (opcional)."
+msgid ""
+"The venue must be alphanumeric and 5 characters long at least (optional)."
+msgstr "Domače igrišče mora vsebovati njamanj 5 znakov ( Neobvezno )"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:46
-msgid "The coach must be alphanumeric and 5 characters long at least (optional)."
-msgstr "El director técnico debe ser alfanumérico y al menos de 5 caracteres (opcional)."
+msgid ""
+"The coach must be alphanumeric and 5 characters long at least (optional)."
+msgstr "Trener mora vsebovati najmanj 5 znakov ( Neobvezno )"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:53
 msgid "The creation date must be 4 digits (optional)."
-msgstr "La fecha de creación debe tener al menos de 4 caracteres (opcional)."
+msgstr "Datum ustanovitve mora vsebovati najmanj 4 številke ( Neobvezno )"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:60
 msgid "The website is not valid (optional)."
-msgstr "El sitio web no es válido (opcional)."
+msgstr "Spletna stran ni na voljo ( Neobvezno )"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:66
 msgid "Busted! We got 2 different IDs which is not possible!"
-msgstr "Cuidado! Nos dieron 2 IDs diferentes, no es posible!"
+msgstr "Busted! Imamo 2 različna ID, kar je nemogoče!"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:75
 msgid "Club information edited with success!"
-msgstr "Información del club editada correctamente!"
+msgstr "Inforamcije o klubu so uspešno spremenjene"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:92
 msgid "Club Name:"
-msgstr "Nombre del Club:"
+msgstr "Ime Kluba:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:94
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:144
 msgid "Country:"
-msgstr "País:"
+msgstr "Država"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:98
 msgid "Coach Name:"
-msgstr "Nombre del Director Técnico:"
+msgstr "Ime Trenerja"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:100
 msgid "Club Venue:"
-msgstr "Estadio del Club:"
+msgstr "Domače Igrišče:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:104
 msgid "Club Website:"
-msgstr "Sitio Web del Club:"
+msgstr "Spletna Stran:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:106
 msgid "Creation Year:"
-msgstr "Año de creación:"
+msgstr "Ustanovljeno:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:110
 msgid "Big Logo:"
-msgstr "Logo Grande:"
+msgstr "Velik Logo"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:112
 msgid "Mini Logo:"
-msgstr "Logo pequeño:"
+msgstr "Majhen Logo"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/club_edit.php:118
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_fixture.php:124
@@ -565,7 +666,7 @@ msgstr "Logo pequeño:"
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:281
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:190
 msgid "Save"
-msgstr "Guardar"
+msgstr "Shrani"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_fixture.php:13
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_match.php:18
@@ -573,7 +674,7 @@ msgstr "Guardar"
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:13
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:13
 msgid "We did not find the league in the database."
-msgstr "No se encontró la liga en la base de datos."
+msgstr "Nismo našli lige v bazi podatkov"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_fixture.php:23
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_match.php:29
@@ -584,7 +685,7 @@ msgstr "No se encontró la liga en la base de datos."
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:132
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:162
 msgid "Teams"
-msgstr "Equipos"
+msgstr "Ekipe"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_fixture.php:25
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_match.php:31
@@ -594,7 +695,7 @@ msgstr "Equipos"
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:23
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:164
 msgid "Matches"
-msgstr "Partidos"
+msgstr "Tekme"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_fixture.php:26
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_match.php:32
@@ -604,7 +705,7 @@ msgstr "Partidos"
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:24
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:165
 msgid "Results"
-msgstr "Resultados"
+msgstr "Rezultati"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_fixture.php:27
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_match.php:33
@@ -617,587 +718,593 @@ msgstr "Resultados"
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:25
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:166
 msgid "Settings"
-msgstr "Opciones"
+msgstr "Nastavitve"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_fixture.php:40
 msgid "The fixtures format is not good!"
-msgstr "El formato del calendario no es correcto!"
+msgstr "Oblika Krogov ni pravilna!"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_fixture.php:66
 msgid "Fixtures updated successfully!"
-msgstr "Calendario actualizado correctamente!"
+msgstr "Krogi Uspešno posodobljeni"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_fixture.php:72
 msgid "Be aware that your league has an odd number of teams."
-msgstr "Tenga en cuenta que la liga tiene un número impar de equipos."
+msgstr "Opozorilo! Vaša liga ima liho število Ekip."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_fixture.php:77
 msgid "It seems that "
-msgstr "Parece que"
+msgstr "Zdi se, da"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_fixture.php:130
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:128
 msgid "Year"
-msgstr "Año"
+msgstr "Leto"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_fixture.php:131
 msgid "Month"
-msgstr "Mes"
+msgstr "Mesec"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_fixture.php:132
 msgid "Day"
-msgstr "Día"
+msgstr "Dan"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_fixture.php:158
 msgid "Fixtures of "
-msgstr "Calendario de"
+msgstr "Krogi "
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_match.php:58
 msgid "An error occurred with the fixture ID."
-msgstr "Ocurrio un erro con el ID del Calendario."
+msgstr "Prišlo je do napake z ID Kroga."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_match.php:62
 msgid "An error occurred because of the datatype given."
-msgstr "Ocurrió un error del tipo de dato proporcionado."
+msgstr "Prišlo je do napake, zardi tipa podatkov."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_match.php:78
 msgid "You cannot have the same team at home and away."
-msgstr "No se puede tener el mismo equipo en casa y fuera."
+msgstr "Ne moreš imeti isto ekipo, doma in v gosteh."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_match.php:83
 msgid "You cannot have the same team twice in a fixture."
-msgstr "No se puede tener el mismo equipo dos veces en el calendario."
+msgstr "Ne moreš imeti enako ekipo dvakrat na krog lige."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_match.php:94
 msgid "Match(es) updated successfully."
-msgstr "Partido(s) actualizados correctamente."
+msgstr "Tekma(e) uspešno posodobljene"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_match.php:110
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_result.php:108
 msgid " - Fixture: "
-msgstr " - Calendario: "
+msgstr "- Krog:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_match.php:145
 msgid "Matches of "
-msgstr "Partidos de"
+msgstr "Tekme"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_result.php:49
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_result.php:54
 msgid "Match \""
-msgstr "Partido \""
+msgstr "Tekma \""
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_result.php:58
 msgid "An error occurred during the results generation."
-msgstr "Ocurrió un error durante la generación de resultados."
+msgstr "Prišlo je do napake med procesiranjem rezultatov."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_result.php:131
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_result.php:139
 msgid "-- Select a player --"
-msgstr "-- Selecciona un jugador --"
+msgstr "-- Izberi Igralca --"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_result.php:239
 msgid "Results of "
-msgstr "Resultados de"
+msgstr "Rezultati"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:44
 msgid "You cannot activate the Prediction Mod because the year is past."
-msgstr "No se puede activar el Predicción Mod debido a que el año es pasado."
+msgstr "Ne morete aktivirati Mod-a napovedi, ker je leto že poteklo."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:49
 msgid "We did not find the corresponding settings to this league."
-msgstr "No hemos encontrado los ajustes correspondientes a esta liga."
+msgstr "Nismo našli ustreznih nastavitve na tej ligi."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:53
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:63
 msgid "The year must be 4 digits."
-msgstr "El año debe tener 4 caracteres."
+msgstr "Leto mora biti 4-mestno število."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:66
 msgid "Settings updated successfully."
-msgstr "Configuración actualizada con éxito."
+msgstr "Nastavitve so uspešno posodobljene."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:76
 msgid "We are sorry but it seems that an error occurred."
-msgstr "Lo sentimos, pero parece que ha ocurrido un error."
+msgstr "Žal nam je, vendar se zdi, da je prišlo do napake."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:87
 msgid "Bonus/Malus updated successfully!"
-msgstr "Bonus/Malus ha actualizado con éxito!"
+msgstr "Bonus/Malus uspešno posodobljen!"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:99
 msgid "Prediction settings updated successfully!"
-msgstr "La configuración de predicción fue actualizada correctamente!"
+msgstr "Nastavitve Napovedi uspešno posodobljen!"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:108
 msgid "Players settings updated successfully!"
-msgstr "La configuración de los jugadores ha sido actualizada correctamente!"
+msgstr "Igralčeve nastavitve uspešno posodobljene!"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:126
 msgid "Generate"
-msgstr "Generar"
+msgstr "Procesiraj"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:136
 msgid "-- Select a team --"
-msgstr "-- Seleccionar un equipo --"
+msgstr "-- Izberi Ekipo --"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:146
 msgid "Football"
-msgstr "Fútbol"
+msgstr "Nogomet"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:157
 msgid "Name:"
-msgstr "Nombre:"
+msgstr "Ime:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:159
 msgid "Year:"
-msgstr "Año:"
+msgstr "Leto:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:163
 msgid "Point(s) for Victory:"
-msgstr "Punto(s) por Victoria:"
+msgstr "Točk za zmago:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:165
 msgid "Team(s) for Promotion:"
-msgstr "Equipo(s) para Ascender:"
+msgstr "Št. Ekip ki napreduje:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:169
 msgid "Point(s) for Draw:"
-msgstr "Punto(s) por Empatar:"
+msgstr "Točk za neodločen rezultat"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:171
 msgid "Team(s) for Qualifying:"
-msgstr "Equipo(s) para Calificar:"
+msgstr "Ekip za Kvalifikacijo:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:175
 msgid "Point(s) for Defeat:"
-msgstr "Punto(s) por Derrota:"
+msgstr "Točk za poraz:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:177
 msgid "Team(s) for Relegation:"
-msgstr "Equipo(s) para Descender"
+msgstr "Ekip za Obstanekv Ligi"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:181
 msgid "Club Information Link:"
-msgstr "Link de Información del Club:"
+msgstr "Več Informacij o Klubu:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:183
 msgid "Time by Default:"
-msgstr "Hora por Defecto:"
+msgstr "Privzet Čas:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:187
 msgid "Favorite Team:"
-msgstr "Equipo Favorito:"
+msgstr "Priljubljena Ekipa:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:189
 msgid "Leg(s) between Teams:"
-msgstr "Ronda(s) entre Equipos:"
+msgstr "Srečanj med Ekipami"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:193
 msgid "Player Mod Enabled:"
-msgstr "Jugador Mod Habilitado:"
+msgstr "Mod Igralec omogočen"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:195
 msgid "Prediction Mod Enabled:"
-msgstr "Predicción Mod Habilitado:"
+msgstr "Mod Napovedi omogočen"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:199
-msgid "I do not recommend using the Player Mod in production environment yet and be aware that only few features have been developed so far..."
-msgstr "Traducir del: holandésEscribe texto o la dirección de un sitio web, o bien, traduce un documento.CancelaringlésalemánespañolAlphaNo recomiendo usar el Jugador Mod ya que se encuentra en producción ya que sólo algunas de sus funciones se han desarrollado hasta el momento..."
+msgid ""
+"I do not recommend using the Player Mod in production environment yet and be "
+"aware that only few features have been developed so far..."
+msgstr "Ne priporočamo uporabo Mod Igralec sej pe ni razvit tako daleč ..."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:200
-msgid "Prediction Mod is not working at the moment except to save your settings."
-msgstr "El Predicción Mod no está funcionando en este momento, salvo para guardar la configuración."
+msgid ""
+"Prediction Mod is not working at the moment except to save your settings."
+msgstr "Mod Napovedi ne deluje"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:206
 msgid "General Settings"
-msgstr "Opciones Generales"
+msgstr "Splošne Nastavitve"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:218
 msgid "Starting Players:"
-msgstr "Jugadores Titulares:"
+msgstr "Začetna Postava"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:220
 msgid "Substitute Players:"
-msgstr "Jugadores Suplentes:"
+msgstr "Rezervni igralci:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:224
 msgid "What Sport:"
-msgstr "Que Deporte:"
+msgstr "Kateri Šport"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:233
 msgid "Player Settings"
-msgstr "Opciones de Jugador"
+msgstr "Nastavitve Igralca"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:246
 msgid "Point(s) when Right:"
-msgstr "Punto(s) Correctos:"
+msgstr "Točk za pravilno"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:248
 msgid "Point(s) when Wrong:"
-msgstr "Punto(s) Incorrectos:"
+msgstr "Točk za napačno"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:252
 msgid "Point(s) for Participation:"
-msgstr "Punto(s) por Participación:"
+msgstr "Točk Za Sodelovanje"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:254
 msgid "Hour(s) before Closing:"
-msgstr "Hora(s) antes de Cerrar:"
+msgstr "Ura (e) pred zaprtjem:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:265
 msgid "Prediction Settings"
-msgstr "Opciones de Predicción:"
+msgstr "Nastavitve napovedi"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_setting.php:284
 msgid "Bonus/Malus for "
-msgstr "Bonus/Malus por  "
+msgstr "Bonus/Malus za"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:40
 msgid "You cannot add twice the same club in a league."
-msgstr "No se puede agregar dos veces el mismo club en una liga."
+msgstr "Ne morete dodati dvakrat en Klub v Ligo."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:46
 msgid "Club added successfully in "
-msgstr "Club agregado correctamente en"
+msgstr "Klub je bil uspešno dodan v"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:74
 msgid "Club removed successfully from "
-msgstr "Club eliminado correctamente de"
+msgstr "Klub uspešno odstranjeni iz"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:76
 msgid "Clubs removed successfully from "
-msgstr "Clubs eliminados correctamente de"
+msgstr "Klubi uspešno odstranjeni iz"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:95
 msgid "Send"
-msgstr "Enviar"
+msgstr "Pošlji"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:97
 msgid " Your league has currently <b>"
-msgstr " Tú liga tiene actualmente <b>"
+msgstr "Vaš liga ima trenutno <b>"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:101
 msgid "Add a Team in "
-msgstr "Agregar un Equipo en"
+msgstr "Dodaj Ekipo b"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:108
 msgid "Remove"
-msgstr "Eliminar"
+msgstr "Odstrani"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:116
 msgid "Home Matches"
-msgstr "Partidos de Local"
+msgstr "Domače Tekme"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:116
 msgid "Away Matches"
-msgstr "Partidos de Visitante"
+msgstr "Gostovanja"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/league_team.php:133
 msgid "Teams in "
-msgstr "Equipos en"
+msgstr "Ekipe v"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:53
 msgid "Table updated successfully."
-msgstr "Tabla actualizada correctamente."
+msgstr "Tabela uspešno posodobljena"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:75
 msgid "The league is already in your database."
-msgstr "La liga ya existe en la base de datos."
+msgstr "Liga je že v bazi podatkov. "
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:80
 msgid "League created successfully."
-msgstr "Liga creada correctamente."
+msgstr "Liga uspešno ustvarjena."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:90
 msgid "We are sorry but it seems that you did not select a league."
-msgstr "Lo sentimos, pero parece que no ha seleccionado una liga."
+msgstr "Žal nam je, vendar se zdi, da niste izbrali Lige."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:104
 msgid "League deleted successfully."
-msgstr "Liga eliminada con éxito."
+msgstr "Liga uspešno izbrisana."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:106
 msgid "Leagues deleted successfully."
-msgstr "Ligas eliminadas con éxito."
+msgstr "Lige uspešno izbrisane."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:124
 msgid "No league found in the database!"
-msgstr "Ninguna liga fue encontrada en la base de datos!"
+msgstr "V bazi podatkov ni nobene Lige."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:134
 msgid "New League"
-msgstr "Liga Nueva"
+msgstr "Nov Liga"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:140
 msgid "PHPLeague has been activated with success!"
-msgstr "PHPLeague ha sido activado con éxito!"
+msgstr "PHPLeague je bil uspečno aktiviran!"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/overview.php:153
 msgid "Options"
-msgstr "Opciones"
+msgstr "Možnosti"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:37
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:62
 msgid "The first name must be alphanumeric and 3 characters long at least."
-msgstr "El nombre debe ser alfanumérico y con 3 caracteres de longitud como mínimo."
+msgstr "Ime mora biti alfanumerično iz najmanj 3 znakov."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:41
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:66
 msgid "The last name must be alphanumeric and 3 characters long at least."
-msgstr "El apellido debe ser alfanumérico y con 3 caracteres de longitud como mínimo."
+msgstr "Priimek mora biti alfanumerično iz najmanj 3 znakov."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:45
 msgid "Player added successfully."
-msgstr "Jugador agregado con éxito."
+msgstr "Igralec je bil uspešno dodan."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:56
 msgid "We are sorry but it seems that you did not select a player."
-msgstr "Lo sentimos, pero parece que no ha seleccionado ningún jugador."
+msgstr "Žal nam je, vendar se zdi, da niste izbrali igralca."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:72
 msgid "Player deleted successfully."
-msgstr "Jugador eliminado con éxito."
+msgstr "Igralec uspešno izbrisan."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:74
 msgid "Players deleted successfully."
-msgstr "Jugadores eliminados con éxito."
+msgstr "Igralci uspešno izbrisani."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:80
 msgid "We did not find any player in the database."
-msgstr "No se encontró ningún jugador en la base de datos."
+msgstr "Nismo našli nobenega igralca v bazi podatkov."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:83
 msgid "Firstname"
-msgstr "Nombre"
+msgstr "Ime"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:84
 msgid "Lastname"
-msgstr "Apellido"
+msgstr "Priimek"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:90
 msgid "New Player"
-msgstr "Jugador Nuevo"
+msgstr "Nov Igralec"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:106
 msgid "Birthdate"
-msgstr "Cumpleaños"
+msgstr "Datum Rojstva:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:107
 msgid "Height"
-msgstr "Altura"
+msgstr "Višina"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:108
 msgid "Weight"
-msgstr "Peso"
+msgstr "Teža"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player.php:125
 msgid "Player Listing"
-msgstr "Lista de Jugador"
+msgstr "Seznam Igrlca"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:17
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:158
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:159
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:194
 msgid "Player Information"
-msgstr "Información del Jugador"
+msgstr "Informacije o Igralcu"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:17
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:215
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:259
 msgid "Player Record"
-msgstr "Historia de Jugador"
+msgstr "Igralčeva Zgodovina"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:21
 msgid "We did not find the player in the database."
-msgstr "No se encontró el jugador en la base de datos."
+msgstr "Nismo našli igralca v bazi podatkov."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:40
 msgid "The birthdate must follow the pattern: \"YYYY-MM-DD\"."
-msgstr "El cumpleaños debe seguir el siguiente patrón: \"YYYY-MM-DD\"."
+msgstr "Datum rojstva mora slediti vzorcu:  \"LLLL-MM-DD \"."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:46
 msgid "The weight must be bigger than 0 and lower than 255."
-msgstr "El peso debe ser superior a 0 e inferior a 255."
+msgstr "Teža mora biti večji od 0 in manjša od 255."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:52
 msgid "The height must be bigger than 0 and lower than 255."
-msgstr "La altura debe ser superior a 0 e inferior a 255."
+msgstr "Višina mora biti večja od 0 in manjša od 255."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:58
 msgid "Busted! ID is not correct!"
-msgstr "Atención! El ID no es correcto!"
+msgstr "Busted! ID ni pravilen!"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:70
 msgid "Player edited with success!"
-msgstr "Perfil editado correctamente."
+msgstr "Igralec urejen z uspehom!"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:88
 msgid "Profile updated successfully."
-msgstr "Perfil actualizado correctamente."
+msgstr "Profil je bil uspešno posodobljen."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:97
 msgid "No team has been selected!"
-msgstr "Ningún equipo ha sido seleccionado!"
+msgstr "Nobena ekipa ni bila izbrana!"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:101
 msgid "A player cannot be twice in the same team."
-msgstr "Un jugador no puede estar dos veces en el mismo equipo."
+msgstr "Igralec ne more biti dvakrat v isti ekipi."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:106
 msgid "Team added successfully to the profile."
-msgstr "Equipo agregado con éxito en el perfil."
+msgstr "Ekipa je bila uspešno dodan v profil."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:117
 msgid "-- Select a term --"
-msgstr "-- Seleccione un término --"
+msgstr "- Izberite izraz -"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:130
 msgid "First Name:"
-msgstr "Nombre:"
+msgstr "Ime:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:132
 msgid "Last Name:"
-msgstr "Apellido:"
+msgstr "Priimek"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:136
 msgid "Height:"
-msgstr "Altura:"
+msgstr "Višina:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:138
 msgid "Weight:"
-msgstr "Peso:"
+msgstr "Teža:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:142
 msgid "Birthdate:"
-msgstr "Cumpleaños:"
+msgstr "Datum Rojstva:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:148
 msgid "Picture:"
-msgstr "Imagen:"
+msgstr "Slika:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:150
 msgid "Term:"
-msgstr "Término:"
+msgstr "Izraz:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:195
 msgid "Player Biography"
-msgstr "Biografía del Jugador"
+msgstr "Igralčeva Biografija"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:201
 msgid "-- Select a Team --"
-msgstr "-- Seleccionar un Equipo --"
+msgstr "-- Izberi Ekipo --"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:210
 msgid " Select one team from a league."
-msgstr "Seleccionar un equipo de la liga."
+msgstr "Izberite eno ekipo iz lige."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:211
 msgid "Add"
-msgstr "Agregar"
+msgstr "Dodaj"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:216
 msgid "Add a Team"
-msgstr "Agregar un Equipo"
+msgstr "Dodaj Ekipo"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:229
 msgid "Team"
-msgstr "Equipo"
+msgstr "Ekipa"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:230
 msgid "Number"
-msgstr "Número"
+msgstr "Število"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:231
 msgid "Position"
-msgstr "Posición"
+msgstr "Mesto"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:237
 msgid "-- Select a position --"
-msgstr "-- Seleccionar una posición --"
+msgstr "- Izberite mesto -"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:257
 msgid "Save Table"
-msgstr "Guardar Tabla"
+msgstr "Shrani Tabelo"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/inc/admin/player_edit.php:260
 msgid "Player History"
-msgstr "Historial del Jugador"
+msgstr "Zgodovina Igralca"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-admin.php:44
 msgid "Release: "
-msgstr "Lanzamiento:"
+msgstr "Izdano:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-admin.php:47
 msgid "Changelog"
-msgstr "Historial de Cambios"
+msgstr "Changelog"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-admin.php:48
 msgid "Forum"
-msgstr "Foro"
+msgstr "Forum"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-admin.php:49
 msgid "Homepage"
-msgstr "Páina Principal"
+msgstr "Domača Stran"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-admin.php:142
 msgid "<noscript>Javascript must be enabled, thank you.</noscript>"
-msgstr "<noscript>Javascript debe estar habilitado, gracias.</noscript>"
+msgstr "<noscript>Javascript mora biti omogočen, Hvala.</noscript>"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-admin.php:275
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-admin.php:288
 msgid "Dashboard (PHPLeague)"
-msgstr "Escritorio (PHPLeague)"
+msgstr "Nadzorna Plošča (PHPLeague)"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-admin.php:297
 msgid "Clubs (PHPLeague)"
-msgstr "Clubs (PHPLeague)"
+msgstr "Klubi (PHPLeague)"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-admin.php:306
 msgid "Players (PHPLeague)"
-msgstr "Jugadores (PHPLeague)"
+msgstr "Igralci (PHPLeague)"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-admin.php:315
 msgid "About (PHPLeague)"
-msgstr "Sobre (PHPLeague)"
+msgstr "Več o (PHPLeague)"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-admin.php:334
 msgid "PHPLeague Latest News"
-msgstr "PHPLeague Últimas Noticias"
+msgstr "PHPLeague Zadnje Novice"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-ajax.php:47
-msgid "Team deleted successfully from the player history with all the data associated."
-msgstr "Equipo borrado con éxito del jugador con la historia de todos los datos asociados."
+msgid ""
+"Team deleted successfully from the player history with all the data "
+"associated."
+msgstr ""
+"Ekipa uspešno izbrisana iz zgodovine igralca z vsemi pripadajočimi podatki."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:77
 msgid "Last 5 matches"
-msgstr "Últimos 5 partidos"
+msgstr "Zadnjih 5 tekem"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:82
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:398
 msgid "Pos"
-msgstr "Pos"
+msgstr "Mesto"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:84
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:400
 msgid "Pts"
-msgstr "Pts"
+msgstr "točke"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:85
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:401
 msgid "P"
-msgstr "Par"
+msgstr "T"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:86
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:200
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:215
 msgid "W"
-msgstr "G"
+msgstr "Z"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:87
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:208
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:223
 msgid "D"
-msgstr "E"
+msgstr "N"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:88
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:204
@@ -1207,11 +1314,11 @@ msgstr "P"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:89
 msgid "F"
-msgstr "F"
+msgstr "G"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:90
 msgid "A"
-msgstr "A"
+msgstr "PG"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:91
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:402
@@ -1221,45 +1328,45 @@ msgstr "+/-"
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:258
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:298
 msgid "Date"
-msgstr "Fecha"
+msgstr "Datum"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:259
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:300
 msgid "Match"
-msgstr "Partido"
+msgstr "Tekma"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:260
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:301
 msgid "Score"
-msgstr "Resultado"
+msgstr "Rezultat"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:365
 msgid " Factfile"
-msgstr " Ficha Técnica"
+msgstr "Izkaznica"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:366
 msgid "Details"
-msgstr "Detalles"
+msgstr "Podrobnosti"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:367
 msgid "Name: "
-msgstr "Nombre: "
+msgstr "Ime:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:368
 msgid "Coach: "
-msgstr "Director Técnico: "
+msgstr "Trener:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:369
 msgid "Venue: "
-msgstr "Estadio: "
+msgstr "Domače Igrišče:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:370
 msgid "Website: "
-msgstr "Sitio Web: "
+msgstr "Spletna Stran:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-front.php:372
 msgid "Creation: "
-msgstr "Creación: "
+msgstr "Ustanvoljeno:"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-tools.php:82
 msgid "&laquo;"
@@ -1267,17 +1374,16 @@ msgstr "&laquo;"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-tools.php:83
 msgid "&raquo;"
-msgstr "&laquo;"
+msgstr "&raquo;"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-tools.php:189
 msgid "-- Select a file --"
-msgstr "-- Seleccionar un archivo --"
+msgstr "- Izberite datoteko -"
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-tools.php:327
 msgid "Error! No action has been given."
-msgstr "Error! Ninguna acción ha sido efectuada."
+msgstr "Napaka! Ni bilo dano dejanje."
 
 #: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague/libs/phpleague-widgets.php:36
 msgid "Latest Discussions About PHPLeague..."
-msgstr "Últimas discusiones sobre PHPLeague..."
-
+msgstr "Zadnje Razprave O PHPLeague ..."

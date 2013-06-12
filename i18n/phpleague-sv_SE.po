@@ -1,0 +1,1595 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PHPLeague (fork - thewheat) v1.4.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-29 21:39+0100\n"
+"PO-Revision-Date: 2013-03-12 17:25:45+0000\n"
+"Last-Translator: Johan Norberg <njohan@njohan.se>\n"
+"Language-Team: Mikaweb <mikaweb@gunners.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/www/wp-dev/wp-content/plugins/phpleague\n"
+"X-Textdomain-Support: yes"
+
+#: phpleague.php:162
+#@ phpleague
+msgid "Permission insufficient to run PHPLeague!"
+msgstr "Tillstånd otillräcklig för att köra PHPLeague!"
+
+#: assets/js/tinymce/window.php:58
+#: libs/phpleague-admin.php:43
+#: libs/phpleague-admin.php:287
+#@ phpleague
+msgid "PHPLeague"
+msgstr "PHPLeague"
+
+#: assets/js/tinymce/window.php:73
+#@ phpleague
+msgid "Tables"
+msgstr "Tabeller"
+
+#: assets/js/tinymce/window.php:74
+#: inc/admin/league_fixture.php:24
+#: inc/admin/league_fixture.php:184
+#: inc/admin/league_match.php:35
+#: inc/admin/league_result.php:33
+#: inc/admin/league_setting.php:122
+#: inc/admin/league_team.php:22
+#: inc/admin/overview.php:178
+#@ phpleague
+msgid "Fixtures"
+msgstr "Omgångar"
+
+#: assets/js/tinymce/window.php:75
+#: assets/js/tinymce/window.php:150
+#: inc/admin/league_fixture.php:156
+#: libs/phpleague-front.php:302
+#@ phpleague
+msgid "Fixture"
+msgstr "Omgång"
+
+#: assets/js/tinymce/window.php:76
+#: inc/admin/about.php:16
+#: inc/admin/about.php:89
+#: inc/admin/about.php:96
+#: inc/admin/about.php:103
+#: inc/admin/about.php:110
+#: inc/admin/about.php:117
+#: libs/phpleague-admin.php:312
+#@ phpleague
+msgid "Clubs"
+msgstr "Klubbar"
+
+#: assets/js/tinymce/window.php:84
+#: assets/js/tinymce/window.php:125
+#: inc/admin/overview.php:167
+#: inc/admin/player_edit.php:205
+#@ phpleague
+msgid "League"
+msgstr "Ligor"
+
+#: assets/js/tinymce/window.php:101
+#@ phpleague
+msgid "Style"
+msgstr "Stil"
+
+#: assets/js/tinymce/window.php:104
+#@ phpleague
+msgid "Normal"
+msgstr "Normal"
+
+#: assets/js/tinymce/window.php:105
+#: inc/admin/league_match.php:119
+#@ phpleague
+msgid "Home"
+msgstr "Hem"
+
+#: assets/js/tinymce/window.php:106
+#: inc/admin/league_match.php:120
+#@ phpleague
+msgid "Away"
+msgstr "Borta"
+
+#: assets/js/tinymce/window.php:111
+#@ phpleague
+msgid "Show latest results"
+msgstr "Visa senaste resultat"
+
+#: assets/js/tinymce/window.php:114
+#: inc/admin/about.php:172
+#: inc/admin/league_setting.php:119
+#@ phpleague
+#@ default
+msgid "No"
+msgstr "Nej"
+
+#: assets/js/tinymce/window.php:115
+#: inc/admin/about.php:180
+#: inc/admin/about.php:188
+#: inc/admin/about.php:196
+#: inc/admin/about.php:204
+#: inc/admin/league_setting.php:119
+#@ phpleague
+#@ default
+msgid "Yes"
+msgstr "Ja"
+
+#: assets/js/tinymce/window.php:140
+#@ phpleague
+msgid "ID Team"
+msgstr "ID Lag"
+
+#: assets/js/tinymce/window.php:144
+#@ phpleague
+msgid "Display all fixtures for a chosen league or only those for a team into that particular league."
+msgstr "Visa alla omgångar för en vald liga eller endast de för ett lag, till just den ligan."
+
+#: assets/js/tinymce/window.php:163
+#@ phpleague
+msgid "Club"
+msgstr "Klubb"
+
+#: assets/js/tinymce/window.php:183
+#@ phpleague
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: assets/js/tinymce/window.php:186
+#@ phpleague
+msgid "Insert"
+msgstr "Infoga"
+
+#: inc/admin/about.php:15
+#: inc/admin/about.php:25
+#: inc/admin/about.php:32
+#: inc/admin/about.php:39
+#: inc/admin/about.php:46
+#: inc/admin/about.php:53
+#: inc/admin/about.php:60
+#: inc/admin/about.php:67
+#: inc/admin/about.php:74
+#: inc/admin/about.php:81
+#: inc/admin/overview.php:188
+#: libs/phpleague-admin.php:303
+#@ phpleague
+msgid "Dashboard"
+msgstr "Seriepanel"
+
+#: inc/admin/about.php:17
+#: inc/admin/about.php:125
+#: inc/admin/about.php:133
+#: inc/admin/about.php:140
+#: inc/admin/about.php:147
+#: libs/phpleague-admin.php:321
+#@ phpleague
+msgid "Players"
+msgstr "Spelare"
+
+#: inc/admin/about.php:18
+#: inc/admin/about.php:211
+#@ phpleague
+msgid "Shortcodes"
+msgstr "Kortkoder"
+
+#: inc/admin/about.php:19
+#: inc/admin/about.php:237
+#@ phpleague
+msgid "Widgets"
+msgstr "Widgets"
+
+#: inc/admin/about.php:20
+#: inc/admin/about.php:245
+#: inc/admin/about.php:252
+#: inc/admin/about.php:259
+#: libs/phpleague-admin.php:330
+#@ phpleague
+msgid "About"
+msgstr "Om"
+
+#: inc/admin/about.php:26
+#: inc/admin/about.php:90
+#: inc/admin/about.php:126
+#: inc/admin/about.php:246
+#: inc/admin/club.php:26
+#: inc/admin/club.php:98
+#: inc/admin/club.php:135
+#: inc/admin/overview.php:121
+#: inc/admin/overview.php:131
+#: inc/admin/overview.php:148
+#: inc/admin/overview.php:187
+#: inc/admin/player.php:24
+#: inc/admin/player.php:93
+#: inc/admin/player.php:128
+#@ phpleague
+msgid "Overview"
+msgstr "Överblick"
+
+#: inc/admin/about.php:27
+#@ phpleague
+msgid "This page is your dashboard and the main point of contact to manage most of the actions."
+msgstr "Den här sidan är din seriepanel och den främsta kontaktpunkten för att hantera de flesta av åtgärderna."
+
+#: inc/admin/about.php:33
+#@ phpleague
+msgid "Create a League"
+msgstr "Skapa en liga"
+
+#: inc/admin/about.php:34
+#@ phpleague
+msgid "Choose a name and a year then you can create your league."
+msgstr "Välj ett namn och om ett år kan du skapa din liga."
+
+#: inc/admin/about.php:40
+#@ phpleague
+msgid "Delete a League"
+msgstr "Radera en Liga"
+
+#: inc/admin/about.php:41
+#@ phpleague
+msgid "Keep in mind that once you delete a league, all data associated will be destroyed."
+msgstr "Tänk på att när du tar bort en liga, kommer alla tillhörande data förstöras."
+
+#: inc/admin/about.php:47
+#@ phpleague
+msgid "Manage Teams"
+msgstr "Hantera Lag"
+
+#: inc/admin/about.php:48
+#@ phpleague
+msgid "The first thing you need to do once your league has been created is to assign it teams. You can have an odd or even number of teams, PHPLeague is handling every case smoothly, but still two teams minimum are required. A little counter is showing you how many teams are in the current league.You can remove more than once team at the same time too."
+msgstr "Det första du behöver göra när din liga har skapats är att tilldela den lag. Du kan ha ett udda eller jämnt antal lag, PHPLeague hanterar varje fall smidigt, men ändå två lag minst krävs. En liten räknare visar hur många lag är i den aktuella ligan. Du kan ta bort mer än en gång laget samtidigt."
+
+#: inc/admin/about.php:54
+#@ phpleague
+msgid "Manage Fixtures"
+msgstr "Hantera omgångar"
+
+#: inc/admin/about.php:55
+#@ phpleague
+msgid "In the fixtures section, you will be asked to fill in every fixtures date. Be aware that the fixtures time is automatically added in the database. This time can be override in the settings section but then you have to come back here and save it one more time to update all fixtures date time."
+msgstr "I omgångs sektionen kommer du att bli ombedd att fylla i alla matcher hittills. Var medveten om att omgångstiden automatiskt läggs till i databasen. Denna tid kan ändras i Inställnings menyn, men då måste man komma tillbaka hit och spara det en gång till, för och uppdatera alla omgångars datum och tid."
+
+#: inc/admin/about.php:61
+#@ phpleague
+msgid "Manage Matches"
+msgstr "Hantera Matcher"
+
+#: inc/admin/about.php:62
+#@ phpleague
+msgid "In the matches sections, you have to relate every match between each others. Take time to fill in all the data because it is very easy to make a mistake. You can check if the data are OK in your teams section. Be aware that if you do not fill in the fixtures, you will not be able to fill in the matches."
+msgstr "I match sektionerna måste du relatera varje match mellan varandra. Ta dig tid att fylla i alla uppgifter eftersom det är mycket lätt att göra ett misstag. Du kan kontrollera om uppgifterna är OK i lag avsnittet. Var medveten om att om du inte fyller i fixturer, kommer du inte att kunna fylla i matcherna."
+
+#: inc/admin/about.php:68
+#@ phpleague
+msgid "Manage Results"
+msgstr "Hantera Resultat"
+
+#: inc/admin/about.php:69
+#@ phpleague
+msgid "In the results section, you will be asked to fill in all the results for a fixture. If you want to add the results of a team before all the others, that is not a problem. Let every input blank and fill in the one you are interested in."
+msgstr "I avsnittet Resultat, kommer du att bli ombedd att fylla i alla resultat på en fixtur. Om du vill lägga till resultatet av en grupp före alla andra, är det inte ett problem. Låt varje ingång vara tomt och fyll bara i det du är intresserad,"
+
+#: inc/admin/about.php:75
+#@ phpleague
+msgid "Manage Settings"
+msgstr "Hantera Inställningar"
+
+#: inc/admin/about.php:76
+#@ phpleague
+msgid "In this section, you have the possibility to setup every option available with the plugin like the number of points for a victory, a draw or a defeat. It might happen that a club received a penalty point or more than one. No problem, the plugin handle this perfectly. You can also use this to add \"bonus\" point."
+msgstr "I det här avsnittet har du möjlighet att ställa in alla tillgängliga alternativet med tillägget (plugin) som antalet poäng för en seger, oavgjort eller förluster. Det kan hända att en klubb fått straffpoäng eller mer än en. Inga problem, tillägget (plugin) hanterar detta perfekt. Du kan också använda detta för att lägga till \"bonus \" poäng."
+
+#: inc/admin/about.php:82
+#@ phpleague
+msgid "The Generator"
+msgstr "Generatorn"
+
+#: inc/admin/about.php:83
+#@ phpleague
+msgid "This is the final step in order to update your table. When you choose to generate your table, every result will be calculated according to your settings and the database table will be filled in with the latest data."
+msgstr "Detta är det sista steget för att uppdatera ditt bord. När du väljer att skapa din tabell kommer varje resultatet beräknas enligt dina inställningar och databasen tabellen fyllas i med de senaste uppgifterna. "
+
+#: inc/admin/about.php:91
+#@ phpleague
+msgid "This section of the plugin is entirely dedicated to the clubs management. You can add, edit or even delete a club once created."
+msgstr "Denna del av insticksprogrammet är helt inriktad på klubbens hantering. Du kan lägga till, redigera eller ta bort en klubb som du en gång skapat. "
+
+#: inc/admin/about.php:97
+#@ phpleague
+msgid "Add a Club"
+msgstr "Lägg till en klubb"
+
+#: inc/admin/about.php:98
+#@ phpleague
+msgid "Create a club is really simple. You just need to choose a name and assign him a country."
+msgstr "Skapa en klubb är riktigt enkelt. Du behöver bara att välja ett namn och tilldela honom ett land."
+
+#: inc/admin/about.php:104
+#@ phpleague
+msgid "Edit a Club"
+msgstr "Redigera en klubb"
+
+#: inc/admin/about.php:105
+#@ phpleague
+msgid "Once your club is available, you can edit it by clicking on his name."
+msgstr "När din klubb är tillgänglig kan du redigera den genom att klicka på hans namn."
+
+#: inc/admin/about.php:111
+#@ phpleague
+msgid "Delete a Club"
+msgstr "Radera en klubb"
+
+#: inc/admin/about.php:112
+#@ phpleague
+msgid "Keep in mind that once you delete a club, all data associated will be destroyed."
+msgstr "Tänk på att när du tar bort en klubb, kommer alla tillhörande data förstöras."
+
+#: inc/admin/about.php:118
+#@ phpleague
+msgid "The Countries"
+msgstr "Länderna"
+
+#: inc/admin/about.php:119
+#@ phpleague
+msgid "By default, the countries are in English but you can update them from your MySQL Administration software. The French version is available in the i18n folder of your plugin."
+msgstr "Som standard är länderna på engelska, men du kan uppdatera dem från din MySQL administration programvara. Den franska versionen är tillgänglig i i18n-mappen på din plugin."
+
+#: inc/admin/about.php:127
+#@ phpleague
+msgid "This section of the plugin is entirely dedicated to the players management. You can add, edit or even delete a player once created."
+msgstr "Denna del av insticksprogrammet är helt tillägnad spelare hanteringen. Du kan lägga till, redigera eller ta bort en spelare en gång skapat."
+
+#: inc/admin/about.php:134
+#@ phpleague
+msgid "Add a Player"
+msgstr "Lägg till spelare"
+
+#: inc/admin/about.php:135
+#@ phpleague
+msgid "Create a player is really simple. You just need to choose a firstname and a lastname."
+msgstr "Skapa en spelare är väldigt enkel. Du behöver bara välja en förnamn och efternamn."
+
+#: inc/admin/about.php:141
+#@ phpleague
+msgid "Edit a Player"
+msgstr "Redigera Spelare"
+
+#: inc/admin/about.php:142
+#@ phpleague
+msgid "Once your player is available, you can edit it by clicking on his name. In edition mode, you can assign teams in the player profile. Once assigned, the player is available in the \"results\" section."
+msgstr "När din spelare är tillgängliga, kan du redigera den genom att klicka på hans namn. I utgåva läge kan du tilldela lag i spelarens profil. När spelaren är skriven finns han tillgänglig i \"resultat\" sektionen."
+
+#: inc/admin/about.php:148
+#@ phpleague
+msgid "Delete a Player"
+msgstr "Radera Spelare"
+
+#: inc/admin/about.php:149
+#@ phpleague
+msgid "Keep in mind that once you delete a player, all data associated will be destroyed."
+msgstr "Tänk på att när du tar bort en spelare, kommer alla tillhörande data förstöras."
+
+#: inc/admin/about.php:157
+#@ phpleague
+msgid "Parameter"
+msgstr "Parameter"
+
+#: inc/admin/about.php:158
+#: inc/admin/about.php:223
+#@ phpleague
+msgid "Description"
+msgstr "Beskrivning"
+
+#: inc/admin/about.php:159
+#@ phpleague
+msgid "Data Type"
+msgstr "Data Typ"
+
+#: inc/admin/about.php:160
+#@ phpleague
+msgid "Type"
+msgstr "Typ"
+
+#: inc/admin/about.php:161
+#@ phpleague
+msgid "Default"
+msgstr "Standar"
+
+#: inc/admin/about.php:162
+#@ phpleague
+msgid "Optional"
+msgstr "Tillval"
+
+#: inc/admin/about.php:168
+#@ phpleague
+msgid "League ID"
+msgstr "Liga ID"
+
+#: inc/admin/about.php:176
+#@ phpleague
+msgid "Information to show => \"table/fixtures/fixture\""
+msgstr "Information för att visa => \"table/fixtures/fixture\""
+
+#: inc/admin/about.php:184
+#@ phpleague
+msgid "Kind of style => \"general/home/away\""
+msgstr "Typ av stil => \"general/home/away\""
+
+#: inc/admin/about.php:186
+#: inc/admin/about.php:202
+#@ phpleague
+msgid "table"
+msgstr "Tabell"
+
+#: inc/admin/about.php:192
+#@ phpleague
+msgid "Show all fixtures but only for that team"
+msgstr "Visa alla omgångar men bara för det laget"
+
+#: inc/admin/about.php:194
+#@ phpleague
+msgid "fixtures"
+msgstr "fixturer"
+
+#: inc/admin/about.php:200
+#@ phpleague
+msgid "Show the 5 latest results in ranking table"
+msgstr "Visa de 5 senaste resultaten i rangordning i denna tabell"
+
+#: inc/admin/about.php:212
+#@ phpleague
+msgid "Shortcodes Listing"
+msgstr "Kortkoder Lista"
+
+#: inc/admin/about.php:222
+#: inc/admin/club.php:114
+#: inc/admin/league_team.php:118
+#: inc/admin/overview.php:139
+#: inc/admin/player.php:109
+#@ phpleague
+msgid "Name"
+msgstr "Namn"
+
+#: inc/admin/about.php:224
+#@ phpleague
+msgid "Option"
+msgstr "Alternativ"
+
+#: inc/admin/about.php:229
+#@ phpleague
+msgid "PHPleague Ranking Table"
+msgstr "PHPleague Ranking Tabell"
+
+#: inc/admin/about.php:230
+#@ phpleague
+msgid "Display a lightweight ranking table"
+msgstr "Visa en lätt ranking tabell"
+
+#: inc/admin/about.php:231
+#@ phpleague
+msgid "Select one league from the dropdown list"
+msgstr "Välj en liga i rullistan."
+
+#: inc/admin/about.php:238
+#@ phpleague
+msgid "Widgets Listing"
+msgstr "Widgets Listan"
+
+#: inc/admin/about.php:247
+#@ phpleague
+msgid "You are currently using the <b>ULTIMATE</b> Edition of PHPLeague."
+msgstr "För tillfället använder du dig av <b>ULTIMATE</b> Edition of PHPLeague."
+
+#: inc/admin/about.php:253
+#@ phpleague
+msgid "Requirements"
+msgstr "Krav"
+
+#: inc/admin/about.php:254
+#@ phpleague
+msgid "I did not test the plugin under all Operating Systems but I am pretty sure it must handle every environment. As WordPress 3.1+, the minimum version of PHP required is 5.2.4 or greater and MySQL version 5 or greater for your database. Javascript must be enabled in the back-end of PHPLeague."
+msgstr "Jag har inte testa plugin i alla Operativsystem, men jag är ganska säker på att den hantera alla miljöer. Som WordPress 3,1 + är den minsta versionen av PHP krävs 5.2.4 eller senare och MySQL version 5 eller senare för databasen. Javascript måste vara aktiverat i back-end av PHPLeague."
+
+#: inc/admin/about.php:260
+#@ phpleague
+msgid "Thanks"
+msgstr "Tackar"
+
+#: inc/admin/about.php:261
+#@ phpleague
+msgid "I would like to thanks everybody who contribute - indirectly - to develop this Plugin. The names I have in mind are: Alexis Mangin, jQuery Developers and WordPress Developers."
+msgstr "Jag skulle vilja tacka alla som bidrar - indirekt - att utveckla denna plugin. Namnen jag har i åtanke är: Alexis Mangin, utvecklare jQuery och Wordpress utvecklare."
+
+#: inc/admin/club.php:45
+#: inc/admin/league_setting.php:57
+#: inc/admin/overview.php:67
+#@ phpleague
+msgid "The name cannot be empty."
+msgstr "Namnet får inte vara tomt"
+
+#: inc/admin/club.php:49
+#: inc/admin/club_edit.php:70
+#: inc/admin/league_setting.php:61
+#: inc/admin/overview.php:71
+#@ phpleague
+msgid "The name must be alphanumeric and 3 characters long at least."
+msgstr "Namnet måste vara alfanumeriska och 3 tecken i alla fall."
+
+#: inc/admin/club.php:57
+#@ phpleague
+msgid "Club added successfully."
+msgstr "Klubben är tillagd."
+
+#: inc/admin/club.php:68
+#: inc/admin/league_team.php:59
+#@ phpleague
+msgid "We are sorry but it seems that you did not select a club."
+msgstr "Vi är ledsna, men det verkar som du inte har valt en klubb."
+
+#: inc/admin/club.php:82
+#@ phpleague
+msgid "Club deleted successfully with all data associated."
+msgstr "Lyckad radering av klubben med alla tillhörande uppgifter."
+
+#: inc/admin/club.php:84
+#@ phpleague
+msgid "Clubs deleted successfully with all data associated."
+msgstr "Lyckad radering av klubbena, med alla tillhörande uppgifter."
+
+#: inc/admin/club.php:90
+#@ phpleague
+msgid "We did not find any club in the database."
+msgstr "Vi hittade ingen klubb i databasen."
+
+#: inc/admin/club.php:94
+#: inc/admin/overview.php:144
+#: inc/admin/player.php:89
+#@ phpleague
+msgid "Create"
+msgstr "Skapa"
+
+#: inc/admin/club.php:99
+#@ phpleague
+msgid "New Club"
+msgstr "Ny Klubb"
+
+#: inc/admin/club.php:106
+#: inc/admin/overview.php:159
+#: inc/admin/player.php:101
+#: inc/admin/player_edit.php:230
+#@ phpleague
+msgid "Delete"
+msgstr "Radera"
+
+#: inc/admin/club.php:113
+#: inc/admin/league_team.php:118
+#: inc/admin/player.php:108
+#@ phpleague
+msgid "ID"
+msgstr "ID"
+
+#: inc/admin/club.php:115
+#@ phpleague
+msgid "Country"
+msgstr "Land"
+
+#: inc/admin/club.php:116
+#@ phpleague
+msgid "Coach"
+msgstr "Tränare"
+
+#: inc/admin/club.php:117
+#@ phpleague
+msgid "Venue"
+msgstr "Plats"
+
+#: inc/admin/club.php:136
+#@ phpleague
+msgid "Clubs Listing"
+msgstr "Klubbar Listade"
+
+#: inc/admin/club_edit.php:16
+#: inc/admin/club_edit.php:124
+#: inc/admin/club_edit.php:125
+#@ phpleague
+msgid "Club Information"
+msgstr "Klubb Information"
+
+#: inc/admin/club_edit.php:20
+#: inc/admin/league_team.php:39
+#@ phpleague
+msgid "We did not find the club in the database."
+msgstr "Vi hittade inte klubben i database."
+
+#: inc/admin/club_edit.php:39
+#@ phpleague
+msgid "The venue must be alphanumeric and 5 characters long at least (optional)."
+msgstr "Platsen måste vara alfanumeriska och ha minst 5 tecken (krav)."
+
+#: inc/admin/club_edit.php:46
+#@ phpleague
+msgid "The coach must be alphanumeric and 5 characters long at least (optional)."
+msgstr ""
+
+#: inc/admin/club_edit.php:53
+#@ phpleague
+msgid "The creation date must be 4 digits (optional)."
+msgstr "Skapelse året måste ha 4 siffror (krav)"
+
+#: inc/admin/club_edit.php:60
+#@ phpleague
+msgid "The website is not valid (optional)."
+msgstr "Webbplatsen är inte giltigt (tillval)."
+
+#: inc/admin/club_edit.php:66
+#@ phpleague
+msgid "Busted! We got 2 different IDs which is not possible!"
+msgstr "Synd! Vi fick 2 olika ID´n som inte är möjligt!"
+
+#: inc/admin/club_edit.php:75
+#@ phpleague
+msgid "Club information edited with success!"
+msgstr "Klubbinformationen redigerades med framgång!"
+
+#: inc/admin/club_edit.php:92
+#@ phpleague
+msgid "Club Name:"
+msgstr "Klubb Namn: "
+
+#: inc/admin/club_edit.php:94
+#: inc/admin/player_edit.php:160
+#@ phpleague
+msgid "Country:"
+msgstr "Land: "
+
+#: inc/admin/club_edit.php:98
+#@ phpleague
+msgid "Coach Name:"
+msgstr "Tränar Namn: "
+
+#: inc/admin/club_edit.php:100
+#@ phpleague
+msgid "Club Venue:"
+msgstr "Klubb Plats: "
+
+#: inc/admin/club_edit.php:104
+#@ phpleague
+msgid "Club Website:"
+msgstr "Klubb hemsida: "
+
+#: inc/admin/club_edit.php:106
+#@ phpleague
+msgid "Creation Year:"
+msgstr "Skapades år: "
+
+#: inc/admin/club_edit.php:110
+#@ phpleague
+msgid "Big Logo:"
+msgstr "Stor Logga: "
+
+#: inc/admin/club_edit.php:112
+#@ phpleague
+msgid "Mini Logo:"
+msgstr "Mini Logga: "
+
+#: inc/admin/club_edit.php:118
+#: inc/admin/league_fixture.php:151
+#: inc/admin/league_match.php:108
+#: inc/admin/league_result.php:108
+#: inc/admin/league_setting.php:201
+#: inc/admin/league_setting.php:229
+#: inc/admin/league_setting.php:259
+#: inc/admin/league_setting.php:281
+#: inc/admin/player_edit.php:179
+#@ phpleague
+#@ default
+msgid "Save"
+msgstr "Spara"
+
+#: inc/admin/league_fixture.php:13
+#: inc/admin/league_match.php:18
+#: inc/admin/league_result.php:17
+#: inc/admin/league_setting.php:13
+#: inc/admin/league_team.php:13
+#@ phpleague
+msgid "We did not find the league in the database."
+msgstr ""
+
+#: inc/admin/league_fixture.php:23
+#: inc/admin/league_match.php:34
+#: inc/admin/league_result.php:32
+#: inc/admin/league_setting.php:121
+#: inc/admin/league_team.php:21
+#: inc/admin/league_team.php:103
+#: inc/admin/league_team.php:135
+#: inc/admin/overview.php:177
+#@ phpleague
+msgid "Teams"
+msgstr "Lag"
+
+#: inc/admin/league_fixture.php:25
+#: inc/admin/league_match.php:36
+#: inc/admin/league_match.php:152
+#: inc/admin/league_result.php:34
+#: inc/admin/league_setting.php:123
+#: inc/admin/league_team.php:23
+#: inc/admin/overview.php:179
+#@ phpleague
+msgid "Matches"
+msgstr "Matcher"
+
+#: inc/admin/league_fixture.php:26
+#: inc/admin/league_match.php:37
+#: inc/admin/league_result.php:35
+#: inc/admin/league_result.php:244
+#: inc/admin/league_setting.php:124
+#: inc/admin/league_team.php:24
+#: inc/admin/overview.php:180
+#@ phpleague
+msgid "Results"
+msgstr "Resultat"
+
+#: inc/admin/league_fixture.php:27
+#: inc/admin/league_match.php:38
+#: inc/admin/league_result.php:36
+#: inc/admin/league_setting.php:125
+#: inc/admin/league_setting.php:205
+#: inc/admin/league_setting.php:232
+#: inc/admin/league_setting.php:264
+#: inc/admin/league_setting.php:283
+#: inc/admin/league_team.php:25
+#: inc/admin/overview.php:181
+#@ phpleague
+msgid "Settings"
+msgstr "Inställningar"
+
+#: inc/admin/league_fixture.php:43
+#@ phpleague
+msgid "The fixtures format is not good!"
+msgstr "Omgångs formatet är inte okej! ..."
+
+#: inc/admin/league_fixture.php:69
+#@ phpleague
+msgid "Fixtures updated successfully!"
+msgstr "Omgångarna har uppdaterats!"
+
+#: inc/admin/league_fixture.php:75
+#@ phpleague
+msgid "Be aware that your league has an odd number of teams."
+msgstr ""
+
+#: inc/admin/league_fixture.php:157
+#: inc/admin/overview.php:140
+#@ phpleague
+msgid "Year"
+msgstr "År"
+
+#: inc/admin/league_fixture.php:158
+#@ phpleague
+msgid "Month"
+msgstr "Månad"
+
+#: inc/admin/league_fixture.php:159
+#@ phpleague
+msgid "Day"
+msgstr "Dag"
+
+#: inc/admin/league_fixture.php:185
+#@ phpleague
+msgid "Fixtures of "
+msgstr "Omgångar av "
+
+#: inc/admin/league_match.php:66
+#@ phpleague
+msgid "An error occurred with the fixture ID."
+msgstr ""
+
+#: inc/admin/league_match.php:70
+#@ phpleague
+msgid "An error occurred because of the datatype given."
+msgstr ""
+
+#: inc/admin/league_match.php:86
+#@ phpleague
+msgid "You cannot have the same team at home and away."
+msgstr ""
+
+#: inc/admin/league_match.php:91
+#@ phpleague
+msgid "You cannot have the same team twice in a fixture."
+msgstr ""
+
+#: inc/admin/league_match.php:102
+#@ phpleague
+msgid "Match(es) updated successfully."
+msgstr ""
+
+#: inc/admin/league_match.php:118
+#: inc/admin/league_result.php:114
+#@ phpleague
+msgid " - Fixture: "
+msgstr " - Omgång : "
+
+#: inc/admin/league_match.php:153
+#@ phpleague
+msgid "Matches of "
+msgstr "Matcher av "
+
+#: inc/admin/league_result.php:64
+#@ phpleague
+msgid "An error occurred during the results generation."
+msgstr ""
+
+#: inc/admin/league_result.php:137
+#: inc/admin/league_result.php:145
+#@ phpleague
+msgid "-- Select a player --"
+msgstr "-- Väl en spelare --"
+
+#: inc/admin/league_result.php:245
+#@ phpleague
+msgid "Results of "
+msgstr "Resultat av "
+
+#: inc/admin/league_setting.php:44
+#@ phpleague
+msgid "You cannot activate the Prediction Mod because the year is past."
+msgstr ""
+
+#: inc/admin/league_setting.php:49
+#@ phpleague
+msgid "We did not find the corresponding settings to this league."
+msgstr ""
+
+#: inc/admin/league_setting.php:53
+#: inc/admin/overview.php:63
+#@ phpleague
+msgid "The year must be 4 digits."
+msgstr "Året måste ha 4 siffror."
+
+#: inc/admin/league_setting.php:66
+#@ phpleague
+msgid "Settings updated successfully."
+msgstr "Alternativen uppdaterades."
+
+#: inc/admin/league_setting.php:76
+#@ phpleague
+msgid "We are sorry but it seems that an error occurred."
+msgstr "Tyvärr verkar det som FEL har uppstått."
+
+#: inc/admin/league_setting.php:87
+#@ phpleague
+msgid "Bonus/Malus updated successfully!"
+msgstr ""
+
+#: inc/admin/league_setting.php:99
+#@ phpleague
+msgid "Prediction settings updated successfully!"
+msgstr ""
+
+#: inc/admin/league_setting.php:108
+#@ phpleague
+msgid "Players settings updated successfully!"
+msgstr ""
+
+#: inc/admin/league_fixture.php:29
+#: inc/admin/league_match.php:40
+#: inc/admin/league_result.php:38
+#: inc/admin/league_setting.php:126
+#: inc/admin/league_team.php:27
+#@ phpleague
+msgid "Generate"
+msgstr "Generera"
+
+#: inc/admin/league_setting.php:136
+#@ phpleague
+msgid "-- Select a team --"
+msgstr "- Välj ett lag -"
+
+#: inc/admin/league_setting.php:146
+#@ phpleague
+msgid "Football"
+msgstr "fotboll"
+
+#: inc/admin/league_setting.php:157
+#@ phpleague
+msgid "Name:"
+msgstr "Namn: "
+
+#: inc/admin/league_setting.php:159
+#@ phpleague
+msgid "Year:"
+msgstr "År: "
+
+#: inc/admin/league_setting.php:163
+#@ phpleague
+msgid "Point(s) for Victory:"
+msgstr "Poäng(er) för Seger:"
+
+#: inc/admin/league_setting.php:165
+#@ phpleague
+msgid "Team(s) for Promotion:"
+msgstr "Lag(en) för avancemang:"
+
+#: inc/admin/league_setting.php:169
+#@ phpleague
+msgid "Point(s) for Draw:"
+msgstr "Poäng(er) för Lika:"
+
+#: inc/admin/league_setting.php:171
+#@ phpleague
+msgid "Team(s) for Qualifying:"
+msgstr ""
+
+#: inc/admin/league_setting.php:175
+#@ phpleague
+msgid "Point(s) for Defeat:"
+msgstr "Poäng(er) för Nederlag:"
+
+#: inc/admin/league_setting.php:177
+#@ phpleague
+msgid "Team(s) for Relegation:"
+msgstr ""
+
+#: inc/admin/league_setting.php:181
+#@ phpleague
+msgid "Club Information Link:"
+msgstr ""
+
+#: inc/admin/league_setting.php:183
+#@ phpleague
+msgid "Time by Default:"
+msgstr "Tid som standard:"
+
+#: inc/admin/league_setting.php:187
+#@ phpleague
+msgid "Favorite Team:"
+msgstr "Favorit Lag:"
+
+#: inc/admin/league_setting.php:189
+#@ phpleague
+msgid "Leg(s) between Teams:"
+msgstr "Ben(en) mellan Lagen:"
+
+#: inc/admin/league_setting.php:193
+#@ phpleague
+msgid "Player Mod Enabled:"
+msgstr ""
+
+#: inc/admin/league_setting.php:195
+#@ phpleague
+msgid "Prediction Mod Enabled:"
+msgstr ""
+
+#: inc/admin/league_setting.php:199
+#@ phpleague
+msgid "I do not recommend using the Player Mod in production environment yet and be aware that only few features have been developed so far..."
+msgstr ""
+
+#: inc/admin/league_setting.php:200
+#@ phpleague
+msgid "Prediction Mod is not working at the moment except to save your settings."
+msgstr ""
+
+#: inc/admin/league_setting.php:206
+#@ phpleague
+msgid "General Settings"
+msgstr "Allmänna Inställningar"
+
+#: inc/admin/league_setting.php:218
+#@ phpleague
+msgid "Starting Players:"
+msgstr "Startspelarna:"
+
+#: inc/admin/league_setting.php:220
+#@ phpleague
+msgid "Substitute Players:"
+msgstr "Vikare Spelare:"
+
+#: inc/admin/league_setting.php:224
+#@ phpleague
+msgid "What Sport:"
+msgstr "Vilken Sport:"
+
+#: inc/admin/league_setting.php:233
+#@ phpleague
+msgid "Player Settings"
+msgstr "Spelar Inställningar"
+
+#: inc/admin/league_setting.php:246
+#@ phpleague
+msgid "Point(s) when Right:"
+msgstr ""
+
+#: inc/admin/league_setting.php:248
+#@ phpleague
+msgid "Point(s) when Wrong:"
+msgstr ""
+
+#: inc/admin/league_setting.php:252
+#@ phpleague
+msgid "Point(s) for Participation:"
+msgstr ""
+
+#: inc/admin/league_setting.php:254
+#@ phpleague
+msgid "Hour(s) before Closing:"
+msgstr ""
+
+#: inc/admin/league_setting.php:265
+#@ phpleague
+msgid "Prediction Settings"
+msgstr ""
+
+#: inc/admin/league_setting.php:284
+#@ phpleague
+msgid "Bonus/Malus for "
+msgstr "Bonus/Malus för "
+
+#: inc/admin/league_team.php:43
+#@ phpleague
+msgid "You cannot add twice the same club in a league."
+msgstr ""
+
+#: inc/admin/league_team.php:49
+#@ phpleague
+msgid "Club added successfully in "
+msgstr "Klubben lagts till i "
+
+#: inc/admin/league_team.php:77
+#@ phpleague
+msgid "Club removed successfully from "
+msgstr "Klubb har förflyttats framgångsrikt från "
+
+#: inc/admin/league_team.php:79
+#@ phpleague
+msgid "Clubs removed successfully from "
+msgstr "Klubben har framgångsrikt förflyttats från "
+
+#: inc/admin/league_team.php:98
+#@ phpleague
+msgid "Send"
+msgstr "Skicka"
+
+#: inc/admin/league_team.php:104
+#@ phpleague
+msgid "Add a Team in "
+msgstr "Lägg till en Grupp i "
+
+#: inc/admin/league_team.php:111
+#@ phpleague
+msgid "Remove"
+msgstr "Ta bort"
+
+#: inc/admin/league_team.php:119
+#@ phpleague
+msgid "Home Matches"
+msgstr "Hemmamatcher"
+
+#: inc/admin/league_team.php:119
+#@ phpleague
+msgid "Away Matches"
+msgstr "Bortamatcher"
+
+#: inc/admin/league_team.php:136
+#@ phpleague
+msgid "Teams in "
+msgstr "Klubbar i "
+
+#: inc/admin/overview.php:53
+#@ phpleague
+msgid "Table updated successfully."
+msgstr ""
+
+#: inc/admin/overview.php:75
+#@ phpleague
+msgid "The league is already in your database."
+msgstr ""
+
+#: inc/admin/overview.php:80
+#@ phpleague
+msgid "League created successfully."
+msgstr ""
+
+#: inc/admin/overview.php:90
+#@ phpleague
+msgid "We are sorry but it seems that you did not select a league."
+msgstr ""
+
+#: inc/admin/overview.php:104
+#@ phpleague
+msgid "League deleted successfully."
+msgstr ""
+
+#: inc/admin/overview.php:106
+#@ phpleague
+msgid "Leagues deleted successfully."
+msgstr ""
+
+#: inc/admin/overview.php:127
+#@ phpleague
+msgid "No league found in the database!"
+msgstr ""
+
+#: inc/admin/overview.php:149
+#@ phpleague
+msgid "New League"
+msgstr "Ny lag"
+
+#: inc/admin/overview.php:155
+#@ phpleague
+msgid "PHPLeague has been activated with success!"
+msgstr ""
+
+#: inc/admin/overview.php:168
+#@ phpleague
+msgid "Options"
+msgstr "Meny"
+
+#: inc/admin/player.php:37
+#: inc/admin/player_edit.php:62
+#@ phpleague
+msgid "The first name must be alphanumeric and 3 characters long at least."
+msgstr ""
+
+#: inc/admin/player.php:41
+#: inc/admin/player_edit.php:66
+#@ phpleague
+msgid "The last name must be alphanumeric and 3 characters long at least."
+msgstr ""
+
+#: inc/admin/player.php:45
+#@ phpleague
+msgid "Player added successfully."
+msgstr "Spelare tillagda! :-)"
+
+#: inc/admin/player.php:56
+#@ phpleague
+msgid "We are sorry but it seems that you did not select a player."
+msgstr ""
+
+#: inc/admin/player.php:72
+#@ phpleague
+msgid "Player deleted successfully."
+msgstr ""
+
+#: inc/admin/player.php:74
+#@ phpleague
+msgid "Players deleted successfully."
+msgstr ""
+
+#: inc/admin/player.php:80
+#@ phpleague
+msgid "We did not find any player in the database."
+msgstr ""
+
+#: inc/admin/player.php:84
+#@ phpleague
+msgid "Firstname"
+msgstr "Förnamn"
+
+#: inc/admin/player.php:85
+#@ phpleague
+msgid "Lastname"
+msgstr "Efternamn"
+
+#: inc/admin/player.php:94
+#@ phpleague
+msgid "New Player"
+msgstr "Ny Spelare"
+
+#: inc/admin/player.php:110
+#@ phpleague
+msgid "Birthdate"
+msgstr "Född"
+
+#: inc/admin/player.php:111
+#@ phpleague
+msgid "Height"
+msgstr "Längd"
+
+#: inc/admin/player.php:112
+#@ phpleague
+msgid "Weight"
+msgstr "Vikt"
+
+#: inc/admin/player.php:129
+#@ phpleague
+msgid "Player Listing"
+msgstr ""
+
+#: inc/admin/player_edit.php:17
+#: inc/admin/player_edit.php:127
+#: inc/admin/player_edit.php:141
+#@ phpleague
+msgid "Player Information"
+msgstr "Spelar Information"
+
+#: inc/admin/player_edit.php:17
+#: inc/admin/player_edit.php:128
+#: inc/admin/player_edit.php:191
+#@ phpleague
+msgid "Player Record"
+msgstr ""
+
+#: inc/admin/player_edit.php:21
+#@ phpleague
+msgid "We did not find the player in the database."
+msgstr ""
+
+#: inc/admin/player_edit.php:40
+#@ phpleague
+msgid "The birthdate must follow the pattern: \"YYYY-MM-DD\"."
+msgstr ""
+
+#: inc/admin/player_edit.php:46
+#@ phpleague
+msgid "The weight must be bigger than 0 and lower than 255."
+msgstr ""
+
+#: inc/admin/player_edit.php:52
+#@ phpleague
+msgid "The height must be bigger than 0 and lower than 255."
+msgstr ""
+
+#: inc/admin/player_edit.php:58
+#@ phpleague
+msgid "Busted! ID is not correct!"
+msgstr ""
+
+#: inc/admin/player_edit.php:70
+#@ phpleague
+msgid "Player edited with success!"
+msgstr ""
+
+#: inc/admin/player_edit.php:88
+#@ phpleague
+msgid "Profile updated successfully."
+msgstr ""
+
+#: inc/admin/player_edit.php:97
+#@ phpleague
+msgid "No team has been selected!"
+msgstr ""
+
+#: inc/admin/player_edit.php:101
+#@ phpleague
+msgid "A player cannot be twice in the same team."
+msgstr ""
+
+#: inc/admin/player_edit.php:106
+#@ phpleague
+msgid "Team added successfully to the profile."
+msgstr ""
+
+#: inc/admin/player_edit.php:117
+#@ phpleague
+msgid "-- Select a term --"
+msgstr ""
+
+#: inc/admin/player_edit.php:146
+#@ phpleague
+msgid "First Name:"
+msgstr "Förnamn: "
+
+#: inc/admin/player_edit.php:148
+#@ phpleague
+msgid "Last Name:"
+msgstr "Efternamn: "
+
+#: inc/admin/player_edit.php:152
+#@ phpleague
+msgid "Height:"
+msgstr "Längd: "
+
+#: inc/admin/player_edit.php:154
+#@ phpleague
+msgid "Weight:"
+msgstr "Vikt: "
+
+#: inc/admin/player_edit.php:158
+#@ phpleague
+msgid "Birthdate:"
+msgstr "Född: "
+
+#: inc/admin/player_edit.php:164
+#@ phpleague
+msgid "Picture:"
+msgstr "Bild: "
+
+#: inc/admin/player_edit.php:166
+#@ phpleague
+msgid "Term:"
+msgstr ""
+
+#: inc/admin/player_edit.php:184
+#@ phpleague
+msgid "-- Select a Team --"
+msgstr ""
+
+#: inc/admin/player_edit.php:194
+#@ phpleague
+msgid " Select one team from a league."
+msgstr ""
+
+#: inc/admin/player_edit.php:195
+#@ phpleague
+msgid "Add"
+msgstr "Lägg till"
+
+#: inc/admin/player_edit.php:206
+#: libs/phpleague-front.php:86
+#: libs/phpleague-front.php:402
+#@ phpleague
+msgid "Team"
+msgstr "Lag"
+
+#: inc/admin/player_edit.php:207
+#@ phpleague
+msgid "Number"
+msgstr "Nummer "
+
+#: inc/admin/player_edit.php:208
+#@ phpleague
+msgid "Position"
+msgstr "Position "
+
+#: inc/admin/player_edit.php:214
+#@ phpleague
+msgid "-- Select a position --"
+msgstr ""
+
+#: inc/admin/player_edit.php:234
+#@ phpleague
+msgid "Save Table"
+msgstr ""
+
+#: libs/phpleague-admin.php:44
+#@ phpleague
+msgid "Release: "
+msgstr "Premiär: "
+
+#: libs/phpleague-admin.php:47
+#@ phpleague
+msgid "Changelog"
+msgstr ""
+
+#: libs/phpleague-admin.php:48
+#@ phpleague
+msgid "Forum"
+msgstr "Forum"
+
+#: libs/phpleague-admin.php:49
+#@ phpleague
+msgid "Homepage"
+msgstr "Hemsida"
+
+#: libs/phpleague-admin.php:142
+#@ phpleague
+msgid "<noscript>Javascript must be enabled, thank you.</noscript>"
+msgstr ""
+
+#: libs/phpleague-admin.php:286
+#: libs/phpleague-admin.php:302
+#@ phpleague
+msgid "Dashboard (PHPLeague)"
+msgstr ""
+
+#: libs/phpleague-admin.php:311
+#@ phpleague
+msgid "Clubs (PHPLeague)"
+msgstr ""
+
+#: libs/phpleague-admin.php:320
+#@ phpleague
+msgid "Players (PHPLeague)"
+msgstr ""
+
+#: libs/phpleague-admin.php:329
+#@ phpleague
+msgid "About (PHPLeague)"
+msgstr ""
+
+#: libs/phpleague-admin.php:349
+#@ phpleague
+msgid "PHPLeague Latest News"
+msgstr ""
+
+#: libs/phpleague-ajax.php:47
+#@ phpleague
+msgid "Team deleted successfully from the player history with all the data associated."
+msgstr ""
+
+#: libs/phpleague-front.php:80
+#@ phpleague
+msgid "Last 5 matches"
+msgstr ""
+
+#: libs/phpleague-front.php:85
+#: libs/phpleague-front.php:401
+#@ phpleague
+msgid "Pos"
+msgstr ""
+
+#: libs/phpleague-front.php:87
+#: libs/phpleague-front.php:403
+#@ phpleague
+msgid "Pts"
+msgstr "Omg"
+
+#: libs/phpleague-front.php:88
+#: libs/phpleague-front.php:404
+#@ phpleague
+msgid "P"
+msgstr ""
+
+#: libs/phpleague-front.php:89
+#: libs/phpleague-front.php:203
+#: libs/phpleague-front.php:218
+#@ phpleague
+msgid "W"
+msgstr ""
+
+#: libs/phpleague-front.php:90
+#: libs/phpleague-front.php:211
+#: libs/phpleague-front.php:226
+#@ phpleague
+msgid "D"
+msgstr "O"
+
+#: libs/phpleague-front.php:91
+#: libs/phpleague-front.php:207
+#: libs/phpleague-front.php:222
+#@ phpleague
+msgid "L"
+msgstr "F"
+
+#: libs/phpleague-front.php:92
+#@ phpleague
+msgid "F"
+msgstr ""
+
+#: libs/phpleague-front.php:93
+#@ phpleague
+msgid "A"
+msgstr ""
+
+#: libs/phpleague-front.php:94
+#: libs/phpleague-front.php:405
+#@ phpleague
+msgid "+/-"
+msgstr ""
+
+#: libs/phpleague-front.php:261
+#: libs/phpleague-front.php:301
+#@ phpleague
+msgid "Date"
+msgstr "Datum"
+
+#: libs/phpleague-front.php:262
+#: libs/phpleague-front.php:303
+#@ phpleague
+msgid "Match"
+msgstr ""
+
+#: libs/phpleague-front.php:263
+#: libs/phpleague-front.php:304
+#@ phpleague
+msgid "Score"
+msgstr "Poäng"
+
+#: libs/phpleague-front.php:368
+#@ phpleague
+msgid " Factfile"
+msgstr ""
+
+#: libs/phpleague-front.php:369
+#@ phpleague
+msgid "Details"
+msgstr "Detaljer"
+
+#: libs/phpleague-front.php:370
+#@ phpleague
+msgid "Name: "
+msgstr "Namn: "
+
+#: libs/phpleague-front.php:371
+#@ phpleague
+msgid "Coach: "
+msgstr "Tränare: "
+
+#: libs/phpleague-front.php:372
+#@ phpleague
+msgid "Venue: "
+msgstr "Plats: "
+
+#: libs/phpleague-front.php:373
+#@ phpleague
+msgid "Website: "
+msgstr "Hemsida: "
+
+#: libs/phpleague-front.php:375
+#@ phpleague
+msgid "Creation: "
+msgstr "Skapad: "
+
+#: libs/phpleague-tools.php:82
+#@ phpleague
+msgid "&laquo;"
+msgstr ""
+
+#: libs/phpleague-tools.php:83
+#@ phpleague
+msgid "&raquo;"
+msgstr ""
+
+#: libs/phpleague-tools.php:189
+#@ phpleague
+msgid "-- Select a file --"
+msgstr "-- Välj en data-fil --"
+
+#: libs/phpleague-tools.php:327
+#@ phpleague
+msgid "Error! No action has been given."
+msgstr ""
+
+#: libs/phpleague-widgets.php:36
+#@ phpleague
+msgid "Latest Discussions About PHPLeague..."
+msgstr ""
+
+#: inc/admin/club.php:53
+#@ phpleague
+msgid "The club  is already in your database."
+msgstr "Klubben finns redan i databasen."
+
+#: inc/admin/league_fixture.php:80
+#@ phpleague
+msgid "It seems that  does not have teams registered or only one."
+msgstr ""
+
+#: inc/admin/league_match.php:23
+#: inc/admin/league_result.php:20
+#@ phpleague
+msgid "The fixture does not exist. Please resave fixtures."
+msgstr ""
+
+#: inc/admin/league_result.php:55
+#@ phpleague
+msgid "Match \"id_match\" updated successfully with goals."
+msgstr ""
+
+#: inc/admin/league_result.php:60
+#@ phpleague
+msgid "Match \"id_match\" updated successfully without any goals."
+msgstr ""
+
+#: inc/admin/league_team.php:100
+#@ phpleague
+msgid " Your league has currently <b></b> teams."
+msgstr "Din liga har för tillfälligt <b></b> lag."
+
+#: inc/admin/overview.php:129
+#@ phpleague
+msgid "Make sure the database structure is up-to-date..."
+msgstr "Se till att databasstrukturen är uppdaterad..."
+
+#: inc/admin/overview.php:132
+#@ phpleague
+msgid "Database Structure Integrity Checking"
+msgstr ""
+
+#: libs/phpleague-admin.php:445
+#@ phpleague
+msgid "Your database structure is OK!"
+msgstr "Din databasstruktur är OK!"
+
